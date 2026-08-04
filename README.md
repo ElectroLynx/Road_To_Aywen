@@ -18,4 +18,4 @@ En téléchargeant la dernière version du jeu dans Releases. Il inclut un insta
 
 # Je n'ai pas envie d'installer n'importe quoi sur mon ordinateur.
 Pas de panique ! Passez par ce lien pour jouer directement sur Internet via votre navigateur web.
-> [Lien vers gd.games](https://gd.games/thanksgocooldev/road-to-aywen)
+> [Lien vers gd.games](https://gd.games/electrolynx/road-to-aywen)

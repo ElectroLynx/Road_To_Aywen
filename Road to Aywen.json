@@ -25,7 +25,7 @@
     "author": "",
     "windowWidth": 1280,
     "windowHeight": 720,
-    "latestCompilationDirectory": "C:\\Users\\victor\\Downloads\\RoadToAywen_v1",
+    "latestCompilationDirectory": "./export",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,

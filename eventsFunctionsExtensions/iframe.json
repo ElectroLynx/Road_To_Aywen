@@ -1,0 +1,195 @@
+{
+  "author": "jack, DHsoftware, @Bouh",
+  "category": "User interface",
+  "dimension": "",
+  "extensionNamespace": "",
+  "fullName": "Iframe",
+  "gdevelopVersion": ">=5.5.222",
+  "helpPath": "",
+  "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWlmcmFtZS1hcnJheS1vdXRsaW5lIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTIxIDJIM0MxLjkgMiAxIDIuOSAxIDRWMjBDMSAyMS4xIDEuOSAyMiAzIDIySDIxQzIyLjEgMjIgMjMgMjEuMSAyMyAyMFY0QzIzIDIuOSAyMi4xIDIgMjEgMk0yMSAyMEgzVjZIMjFWMjBNNiA4VjE4SDEwVjE2SDhWMTBIMTBWOEg2TTE2IDE2SDE0VjE4SDE4VjhIMTRWMTBIMTZWMTYiIC8+PC9zdmc+",
+  "name": "Iframe",
+  "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/iframe-array-outline.svg",
+  "shortDescription": "Embed external websites in-game using HTML iframes. Create/delete dynamically.",
+  "version": "1.0.0",
+  "description": [
+    "This extension allows you to set up and create Iframes to show websites on your game.",
+    "",
+    "New action in this extension:",
+    "- Create an iFrame",
+    "- Delete an iFrame",
+    "",
+    "For security reasons on browsers, some websites can be limited if the host and the iFrame do not have the same origin. ",
+    "Read more: [Same-origin policy](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy)"
+  ],
+  "origin": {
+    "identifier": "Iframe",
+    "name": "gdevelop-extension-store"
+  },
+  "tags": [
+    "browser",
+    "iframe",
+    "dom apis",
+    "online"
+  ],
+  "authorIds": [
+    "2OwwM8ToR9dx9RJ2sAKTcrLmCB92",
+    "kImlRGnf8uU4FlHfeGpkHoCxIfn2"
+  ],
+  "dependencies": [],
+  "globalVariables": [],
+  "sceneVariables": [],
+  "eventsFunctions": [
+    {
+      "description": "Create a new Iframe to embed a website inside the game.",
+      "fullName": "Create an Iframe",
+      "functionType": "Action",
+      "name": "Create",
+      "sentence": "Create Iframe _PARAM1_ at position _PARAM5_:_PARAM6_, width: _PARAM3_, height: _PARAM4_, url: _PARAM2_",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const iframe = document.createElement(\"iframe\");",
+                "",
+                "iframe.src = eventsFunctionContext.getArgument(\"WebsiteURL\");",
+                "iframe.id = eventsFunctionContext.getArgument(\"Name\");",
+                "iframe.setAttribute(\"width\", eventsFunctionContext.getArgument(\"Width\"));",
+                "iframe.setAttribute(\"height\", eventsFunctionContext.getArgument(\"Height\"));",
+                "iframe.style.top = eventsFunctionContext.getArgument(\"PositionY\") + \"px\";",
+                "iframe.style.left = eventsFunctionContext.getArgument(\"PositionX\") + \"px\";",
+                "iframe.frameBorder = eventsFunctionContext.getArgument(\"Border\");",
+                "iframe.frameBorder == \"true\" ? iframe.frameBorder = \"yes\" : iframe.frameBorder = \"no\";",
+                "iframe.scrolling = eventsFunctionContext.getArgument(\"Scrolling\");",
+                "iframe.scrolling == \"true\" ? iframe.scrolling = \"yes\" : iframe.scrolling = \"no\";",
+                "iframe.style.position = \"absolute\";",
+                "",
+                "iframe.style.cssText += eventsFunctionContext.getArgument(\"ExtraCSS\");",
+                "",
+                "",
+                "document.body.appendChild(iframe);",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Name (DOM id)",
+          "name": "Name",
+          "type": "string"
+        },
+        {
+          "description": "URL",
+          "name": "WebsiteURL",
+          "type": "string"
+        },
+        {
+          "description": "Width",
+          "name": "Width",
+          "type": "expression"
+        },
+        {
+          "description": "Height",
+          "name": "Height",
+          "type": "expression"
+        },
+        {
+          "description": "Position X",
+          "name": "PositionX",
+          "type": "expression"
+        },
+        {
+          "description": "Position Y",
+          "name": "PositionY",
+          "type": "expression"
+        },
+        {
+          "description": "Show scrollbar",
+          "name": "Scrolling",
+          "supplementaryInformation": "[\"no\",\"yes\"]",
+          "type": "yesorno"
+        },
+        {
+          "description": "Show border",
+          "name": "Border",
+          "supplementaryInformation": "[\"yes\",\"no\"]",
+          "type": "yesorno"
+        },
+        {
+          "description": "Extra CSS styles (optional)",
+          "longDescription": "e.g: `\"border: 10px #f00 solid;\"`",
+          "name": "ExtraCSS",
+          "type": "string"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Delete the specified Iframe.",
+      "fullName": "Delete an Iframe",
+      "functionType": "Action",
+      "name": "Delete",
+      "sentence": "Delete Iframe _PARAM1_",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": "document.getElementById(eventsFunctionContext.getArgument(\"Name\")).remove();",
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Name (DOM id)",
+          "name": "Name",
+          "type": "string"
+        }
+      ],
+      "objectGroups": []
+    }
+  ],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "functionName": "Create"
+      },
+      {
+        "functionName": "Delete"
+      }
+    ]
+  },
+  "eventsBasedBehaviors": [],
+  "eventsBasedObjects": []
+}

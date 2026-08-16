@@ -21,7 +21,7 @@ En téléchargeant la dernière version du jeu dans Releases. Il inclut un insta
  - Avoir Node.js et Electron Builder ainsi que Yarn.
  - Exécuter la commande **yarn && yarn build**
 
- Voici la doc plus complète
+ Voici la documentation complète :
  >[Doc pour compiler](https://wiki.gdevelop.io/gdevelop5/publishing/windows-macos-linux-with-electron/)
 
 # Je n'ai pas envie d'installer n'importe quoi sur mon ordinateur.

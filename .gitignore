@@ -10,7 +10,6 @@ thum_*.png
 
 # Dossiers inutiles
 export/
-build/
 bin/
 dist/
 

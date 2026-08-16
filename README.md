@@ -6,7 +6,7 @@ Tu incarnes Root (la mascotte de Aywen). Un jour, il se trouve que Aywen t'oubli
 
 # Comment tester ?
 En téléchargeant la dernière version du jeu dans Releases. Il inclut un installateur .exe
-> L'exécutable n'est pas encore disponible.
+> [Releases](https://github.com/ElectroLynx/Road_To_Aywen/releases/tag/releases)
 
 # Comment avoir sa propre version ?
 

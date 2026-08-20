@@ -663,6 +663,66 @@
         "name": "assets/Arrow Key_Up.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Grasslands Theme.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/Grasslands Theme.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "build/app/Déconnage.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "build/app/Déconnage.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "build/app/dragon-studio-button-press-3827132.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "build/app/dragon-studio-button-press-3827132.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "build/app/LA_CHINE.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "build/app/LA_CHINE.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "build/app/Pipe.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "build/app/Pipe.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "build/app/u_vdwj1c20kz-game-background-sound-3423362.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "build/app/u_vdwj1c20kz-game-background-sound-3423362.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -1534,6 +1594,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/niveau-5"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/niveau-6"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

@@ -488,6 +488,18 @@
             "=",
             "0"
           ]
+        },
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "assets/Grasslands Theme.mp3",
+            "yes",
+            "100",
+            "1"
+          ]
         }
       ]
     },

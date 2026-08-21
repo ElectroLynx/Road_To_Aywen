@@ -13,5 +13,4 @@ export/
 bin/
 dist/
 
-# Save Aucasou
-SAVE-AUCASOU/
+*.autosave

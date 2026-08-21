@@ -140,6 +140,70 @@
         "userAdded": false
       },
       {
+        "file": "assets/root/root_1_gauche.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/root/root_1_gauche.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/root/root_2_gauche.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/root/root_2_gauche.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/root/root_3_gauche.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/root/root_3_gauche.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/root/root_4_gauche.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/root/root_4_gauche.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/root/root_5_gauche.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/root/root_5_gauche.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/root/root_6_gauche.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/root/root_6_gauche.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/root/root_7_gauche.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/root/root_7_gauche.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/root/root_8_gauche.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/root/root_8_gauche.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
         "file": "assets/Kenney Mini Square.ttf",
         "kind": "font",
         "metadata": "",
@@ -271,6 +335,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1500,
           "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
@@ -283,9 +349,7 @@
           "ladderClimbingSpeed": 150,
           "maxFallingSpeed": 700,
           "maxSpeed": 500,
-          "name": "PlatformerObject",
           "slopeMaxAngle": 60,
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "useLegacyTrajectory": false,
           "useRepeatedJump": false,
           "xGrabTolerance": 10,
@@ -592,6 +656,306 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Root-MarcheGauche",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/root/root_1_gauche.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7
+                      },
+                      {
+                        "x": 90,
+                        "y": 7
+                      },
+                      {
+                        "x": 90,
+                        "y": 140
+                      },
+                      {
+                        "x": 0,
+                        "y": 140
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/root/root_2_gauche.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7
+                      },
+                      {
+                        "x": 90,
+                        "y": 7
+                      },
+                      {
+                        "x": 90,
+                        "y": 140
+                      },
+                      {
+                        "x": 0,
+                        "y": 140
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/root/root_3_gauche.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7
+                      },
+                      {
+                        "x": 90,
+                        "y": 7
+                      },
+                      {
+                        "x": 90,
+                        "y": 140
+                      },
+                      {
+                        "x": 0,
+                        "y": 140
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/root/root_4_gauche.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7
+                      },
+                      {
+                        "x": 90,
+                        "y": 7
+                      },
+                      {
+                        "x": 90,
+                        "y": 140
+                      },
+                      {
+                        "x": 0,
+                        "y": 140
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/root/root_5_gauche.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7
+                      },
+                      {
+                        "x": 90,
+                        "y": 7
+                      },
+                      {
+                        "x": 90,
+                        "y": 140
+                      },
+                      {
+                        "x": 0,
+                        "y": 140
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/root/root_6_gauche.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7
+                      },
+                      {
+                        "x": 90,
+                        "y": 7
+                      },
+                      {
+                        "x": 90,
+                        "y": 140
+                      },
+                      {
+                        "x": 0,
+                        "y": 140
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/root/root_7_gauche.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7
+                      },
+                      {
+                        "x": 90,
+                        "y": 7
+                      },
+                      {
+                        "x": 90,
+                        "y": 140
+                      },
+                      {
+                        "x": 0,
+                        "y": 140
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/root/root_8_gauche.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7
+                      },
+                      {
+                        "x": 90,
+                        "y": 7
+                      },
+                      {
+                        "x": 90,
+                        "y": 140
+                      },
+                      {
+                        "x": 0,
+                        "y": 140
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
@@ -729,7 +1093,7 @@
           "height": 96,
           "keepRatio": true,
           "layer": "",
-          "name": "Button_Dark_Aywen",
+          "name": "Button_Deep_Aywen",
           "persistentUuid": "a3ca4d10-ddd7-40c5-bd4f-70dd0738c40e",
           "width": 256,
           "x": 1436,
@@ -763,7 +1127,7 @@
           "height": 476,
           "keepRatio": true,
           "layer": "",
-          "name": "Dark_Aywen",
+          "name": "Deep_Aywen",
           "persistentUuid": "d4216d17-1198-4192-9643-147c1174168a",
           "width": 477,
           "x": 1325,
@@ -915,7 +1279,7 @@
         },
         {
           "assetStoreId": "cf293151af6644417848a1a7a84a471edaac9486ec4311d816fd51f5be6400af",
-          "name": "Button_Dark_Aywen",
+          "name": "Button_Deep_Aywen",
           "persistentUuid": "4481f45b-373f-414b-bfb9-1c4f56a93f22",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variant": "Small Red Button",
@@ -923,7 +1287,7 @@
           "effects": [],
           "behaviors": [],
           "content": {
-            "LabelText": "Dark Aywen",
+            "LabelText": "Deep Aywen",
             "PressedLabelOffsetY": 2
           }
         },
@@ -949,7 +1313,7 @@
           "bottomMargin": 0,
           "height": 32,
           "leftMargin": 0,
-          "name": "Dark_Aywen",
+          "name": "Deep_Aywen",
           "persistentUuid": "b41b6402-f96a-4893-ab50-bc84ea531bdd",
           "rightMargin": 0,
           "texture": "assets/Aywen/profile.jpg",
@@ -978,7 +1342,7 @@
             "objectName": "Button_Root"
           },
           {
-            "objectName": "Button_Dark_Aywen"
+            "objectName": "Button_Deep_Aywen"
           },
           {
             "objectName": "Aywen"
@@ -987,7 +1351,7 @@
             "objectName": "Root_illustratif"
           },
           {
-            "objectName": "Dark_Aywen"
+            "objectName": "Deep_Aywen"
           }
         ]
       },
@@ -1151,7 +1515,7 @@
                 "value": "IsCursorOnObject"
               },
               "parameters": [
-                "Dark_Aywen",
+                "Deep_Aywen",
                 "",
                 "",
                 ""
@@ -1164,7 +1528,7 @@
                 "value": "PanelSpriteObject::SetImageFromResource"
               },
               "parameters": [
-                "Dark_Aywen",
+                "Deep_Aywen",
                 "assets/Aywen/dark_aywen.jpg",
                 ""
               ]
@@ -1180,7 +1544,7 @@
                 "value": "IsCursorOnObject"
               },
               "parameters": [
-                "Dark_Aywen",
+                "Deep_Aywen",
                 "",
                 "",
                 ""
@@ -1199,7 +1563,7 @@
                 "value": "PanelSpriteObject::SetImageFromResource"
               },
               "parameters": [
-                "Dark_Aywen",
+                "Deep_Aywen",
                 "assets/Aywen/profile.jpg",
                 ""
               ]
@@ -1266,7 +1630,7 @@
                 "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
               },
               "parameters": [
-                "Button_Dark_Aywen",
+                "Button_Deep_Aywen",
                 ""
               ]
             }
@@ -1413,7 +1777,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.44485159988866646,
+        "zoomFactor": 0.11805730185029362,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -1465,8 +1829,8 @@
           "name": "Root",
           "persistentUuid": "556658e4-043a-4dad-8fc2-1ff9206e750d",
           "width": 175,
-          "x": 850,
-          "y": 600,
+          "x": 813,
+          "y": 570,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -1530,8 +1894,8 @@
           "layer": "",
           "name": "Lava",
           "persistentUuid": "8300af22-8097-4ba1-9e49-5bf0ed6a69f9",
-          "width": 20572,
-          "x": -681,
+          "width": 33196,
+          "x": -5782,
           "y": 1886,
           "zOrder": 7,
           "numberProperties": [],
@@ -1563,7 +1927,7 @@
           "layer": "",
           "name": "Platform",
           "persistentUuid": "9c593c19-a3ff-4027-ada8-d23c228b5a70",
-          "width": 6948,
+          "width": 5172,
           "x": 8400,
           "y": 867,
           "zOrder": 9,
@@ -1614,8 +1978,8 @@
           "name": "Aywen_5",
           "persistentUuid": "95f9b4a6-2897-417b-ba05-e9d89dcbed23",
           "width": 0,
-          "x": 10372,
-          "y": 176,
+          "x": 10236,
+          "y": 119,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -1633,6 +1997,321 @@
           "x": 13401,
           "y": 173,
           "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 123,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlatformAlive",
+          "persistentUuid": "949232c8-1bb0-4d19-afd7-615cce95bbb0",
+          "width": 552,
+          "x": 13976,
+          "y": 874,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 125,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "9db692dc-39fe-4b75-9f22-5318c671011e",
+          "width": 3191,
+          "x": 14895,
+          "y": 873,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Aywen_7",
+          "persistentUuid": "add1acee-eb45-42d7-b2bd-cc5a5c7aeae6",
+          "width": 0,
+          "x": 16066,
+          "y": 203,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Aywen_8",
+          "persistentUuid": "619e57cc-ce75-432a-819c-2f75469e870f",
+          "width": 0,
+          "x": 19582,
+          "y": 215,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 133,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlatformDeath",
+          "persistentUuid": "1e065387-e4a6-49c1-b16e-ec4699f4f003",
+          "width": 478,
+          "x": 18089,
+          "y": 869,
+          "zOrder": -2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 133,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlatformAlive",
+          "persistentUuid": "a2b6c5f5-8fc4-4199-8334-77e4e3738a16",
+          "width": 474,
+          "x": 18569,
+          "y": 869,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Aywen_9",
+          "persistentUuid": "5281eb74-eafe-4831-bdb7-3148676d1426",
+          "width": 0,
+          "x": 22700,
+          "y": 223,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 131,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "70c7bbe4-8174-4235-9220-bc9083a2d771",
+          "width": 5298,
+          "x": 19364,
+          "y": 874,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 143,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlatformAlive",
+          "persistentUuid": "9e4ab6bb-79fb-4d52-a9b9-1605be4a47dc",
+          "width": 3412,
+          "x": 27504,
+          "y": 471,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Vous_Avez_Terminé",
+          "persistentUuid": "7b1f94d7-dde9-49f6-8e82-f59c88f91c72",
+          "width": 0,
+          "x": 27688,
+          "y": -182,
+          "zOrder": -3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 194,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlatformAlive",
+          "persistentUuid": "750f7615-58c5-4c11-85ef-fd6c139a9afc",
+          "width": 492,
+          "x": 25281,
+          "y": 803,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 326,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlatformAlive",
+          "persistentUuid": "3667a91d-3cff-44c0-91f9-3e983a4d46a2",
+          "width": 682,
+          "x": 25887,
+          "y": 678,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 426,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlatformAlive",
+          "persistentUuid": "7d125a4c-de49-47eb-9e6c-699c29d18136",
+          "width": 586,
+          "x": 26776,
+          "y": 578,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 91,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlatformAlive",
+          "persistentUuid": "4ed8877e-421c-4cde-9f45-281b1396f473",
+          "width": 340,
+          "x": 24680,
+          "y": 910,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Continue",
+          "persistentUuid": "70e98125-3185-4eb8-bc2d-7a8e7d25b039",
+          "width": 0,
+          "x": 29106,
+          "y": -40,
+          "zOrder": -3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Continue",
+          "persistentUuid": "ef9ba823-25b5-49f7-a609-8687fe5b330a",
+          "width": 0,
+          "x": 29682,
+          "y": -40,
+          "zOrder": -3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Continue",
+          "persistentUuid": "f6bba76b-da31-4e0e-aa95-651e19b8460f",
+          "width": 0,
+          "x": 30266,
+          "y": -40,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 150,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlatformMenu",
+          "persistentUuid": "65518925-240d-4d32-ba8c-34dee4c0bc8b",
+          "width": 789,
+          "x": 31133,
+          "y": 473,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Saute",
+          "persistentUuid": "bc19005c-39ab-45f9-9e75-f077bfde3da9",
+          "width": 0,
+          "x": 31348,
+          "y": -331,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1700,10 +2379,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": false,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ]
@@ -1849,7 +2528,7 @@
           "persistentUuid": "c39fc843-31f0-45cc-8d66-27a8afd239ca",
           "rightMargin": 0,
           "texture": "Platform2",
-          "tiled": true,
+          "tiled": false,
           "topMargin": 0,
           "type": "PanelSpriteObject::PanelSprite",
           "width": 32,
@@ -1938,7 +2617,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "La première vidéo d'Aywen à fait,\n100k.",
+          "string": "La première vidéo d'Aywen à fait,\n100k, cela parlait d'avoir\n48 heures pour faire une émission de télévision",
           "font": "d73fbc705487707ea61faa2b865e21e3b24bea3319f75c2a124ad13bcae99ab4_Kenney Mini Square.ttf",
           "textAlignment": "left",
           "characterSize": 90,
@@ -1961,7 +2640,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "La première vidéo d'Aywen à fait,\n100k.",
+            "text": "La première vidéo d'Aywen à fait,\n100k, cela parlait d'avoir\n48 heures pour faire une émission de télévision",
             "font": "d73fbc705487707ea61faa2b865e21e3b24bea3319f75c2a124ad13bcae99ab4_Kenney Mini Square.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -2013,6 +2692,320 @@
             "lineHeight": 0,
             "color": "255;255;255"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "PlatformAlive",
+          "persistentUuid": "95d5fe70-e765-4a6c-a2d2-aca1e2e1a22a",
+          "rightMargin": 0,
+          "texture": "NewPanelSprite",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Aywen_7",
+          "persistentUuid": "50e1f585-3187-4156-868e-70f21c01c7ab",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Sa première vidéo qui a marché à été\nun bot pour tricher aux échecs.",
+          "font": "d73fbc705487707ea61faa2b865e21e3b24bea3319f75c2a124ad13bcae99ab4_Kenney Mini Square.ttf",
+          "textAlignment": "left",
+          "characterSize": 90,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Sa première vidéo qui a marché à été\nun bot pour tricher aux échecs.",
+            "font": "d73fbc705487707ea61faa2b865e21e3b24bea3319f75c2a124ad13bcae99ab4_Kenney Mini Square.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 90,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Aywen_8",
+          "persistentUuid": "d501b475-ee76-46fb-8750-a42bd6daf0b8",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Sa première vidéo qui a marché à été\nun bot pour tricher aux échecs.",
+          "font": "d73fbc705487707ea61faa2b865e21e3b24bea3319f75c2a124ad13bcae99ab4_Kenney Mini Square.ttf",
+          "textAlignment": "left",
+          "characterSize": 90,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Sa première vidéo qui a marché à été\nun bot pour tricher aux échecs.",
+            "font": "d73fbc705487707ea61faa2b865e21e3b24bea3319f75c2a124ad13bcae99ab4_Kenney Mini Square.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 90,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Aywen_9",
+          "persistentUuid": "0a0cb6f1-9552-4203-875e-8085abeffaaa",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Depuis il continue de faire des vidéos\nen rapport avec le code.",
+          "font": "d73fbc705487707ea61faa2b865e21e3b24bea3319f75c2a124ad13bcae99ab4_Kenney Mini Square.ttf",
+          "textAlignment": "left",
+          "characterSize": 90,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Depuis il continue de faire des vidéos\nen rapport avec le code.",
+            "font": "d73fbc705487707ea61faa2b865e21e3b24bea3319f75c2a124ad13bcae99ab4_Kenney Mini Square.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 90,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Vous_Avez_Terminé",
+          "persistentUuid": "7f108d5a-58c5-4a54-8cbf-02b5b03799ba",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Félicitations ! Vous avez terminé !",
+          "font": "d73fbc705487707ea61faa2b865e21e3b24bea3319f75c2a124ad13bcae99ab4_Kenney Mini Square.ttf",
+          "textAlignment": "left",
+          "characterSize": 90,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Félicitations ! Vous avez terminé !",
+            "font": "d73fbc705487707ea61faa2b865e21e3b24bea3319f75c2a124ad13bcae99ab4_Kenney Mini Square.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 90,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Continue",
+          "persistentUuid": "514f4ffa-1dbf-4b32-a72c-864b9701f911",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "-> Sortie",
+          "font": "d73fbc705487707ea61faa2b865e21e3b24bea3319f75c2a124ad13bcae99ab4_Kenney Mini Square.ttf",
+          "textAlignment": "left",
+          "characterSize": 90,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "-> Sortie",
+            "font": "d73fbc705487707ea61faa2b865e21e3b24bea3319f75c2a124ad13bcae99ab4_Kenney Mini Square.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 90,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "PlatformMenu",
+          "persistentUuid": "a0263911-b9a1-4df4-9956-471961024a86",
+          "rightMargin": 0,
+          "texture": "NewPanelSprite",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Saute",
+          "persistentUuid": "b81c7987-cc41-4974-8bb4-58b4410bed7e",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Saute ici\n|\nv",
+          "font": "d73fbc705487707ea61faa2b865e21e3b24bea3319f75c2a124ad13bcae99ab4_Kenney Mini Square.ttf",
+          "textAlignment": "center",
+          "characterSize": 90,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Saute ici\n|\nv",
+            "font": "d73fbc705487707ea61faa2b865e21e3b24bea3319f75c2a124ad13bcae99ab4_Kenney Mini Square.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 90,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -2040,6 +3033,24 @@
             "objectName": "Aywen_6"
           },
           {
+            "objectName": "Aywen_7"
+          },
+          {
+            "objectName": "Aywen_8"
+          },
+          {
+            "objectName": "Aywen_9"
+          },
+          {
+            "objectName": "Vous_Avez_Terminé"
+          },
+          {
+            "objectName": "Continue"
+          },
+          {
+            "objectName": "Saute"
+          },
+          {
             "objectName": "Platform"
           },
           {
@@ -2047,6 +3058,12 @@
           },
           {
             "objectName": "PlatformDeath"
+          },
+          {
+            "objectName": "PlatformMenu"
+          },
+          {
+            "objectName": "PlatformAlive"
           }
         ]
       },
@@ -2106,6 +3123,259 @@
                 "",
                 "\"Aywen\"",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Root",
+                "PlatformMenu",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"MENU\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+              },
+              "parameters": [
+                "Root",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+              },
+              "parameters": [
+                "Root",
+                "Animation"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+              },
+              "parameters": [
+                "Root",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
+              },
+              "parameters": [
+                "Root",
+                "Animation"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeSprite"
+              },
+              "parameters": [
+                "Root",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Up\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateJumpKey"
+              },
+              "parameters": [
+                "Root",
+                "PlatformerObject"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Root",
+                "Animation",
+                "=",
+                "\"Root-MarcheGauche\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Right\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Root",
+                "Animation",
+                "=",
+                "\"Root-MarcheDroite\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"b\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::MaxSpeed"
+              },
+              "parameters": [
+                "Root",
+                "PlatformerObject",
+                "=",
+                "1000"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"b\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::MaxSpeed"
+              },
+              "parameters": [
+                "Root",
+                "PlatformerObject",
+                "=",
+                "500"
               ]
             }
           ]
@@ -2337,8 +3607,8 @@
     {
       "b": 255,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Dark_95Aywen",
-      "name": "Dark_Aywen",
+      "mangledName": "Deep_95Aywen",
+      "name": "Deep_Aywen",
       "r": 247,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,

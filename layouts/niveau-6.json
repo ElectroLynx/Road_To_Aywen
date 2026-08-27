@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5653158055126306,
+    "zoomFactor": 0.40575189059438377,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -29,6 +29,7 @@
   "variables": [
     {
       "name": "MENU",
+      "persistentUuid": "5f0b6a79-e4ce-4ab8-b4b5-36d15b075f32",
       "type": "number",
       "value": 0
     }
@@ -44,8 +45,8 @@
       "name": "Platform",
       "persistentUuid": "1ecc788e-f3d6-41f6-b973-6615c7747be6",
       "width": 118,
-      "x": 105,
-      "y": 569,
+      "x": 58,
+      "y": 584,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -60,8 +61,8 @@
       "name": "Root",
       "persistentUuid": "e21cee3b-39c1-4f63-9ce0-b2a00a5c7401",
       "width": 0,
-      "x": 121,
-      "y": 409,
+      "x": 70,
+      "y": 429,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -70,16 +71,117 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 64,
-      "height": 59,
+      "depth": 1,
+      "height": 91,
       "keepRatio": true,
-      "layer": "Calque de pause",
-      "name": "NEXT",
-      "persistentUuid": "c7732372-bf4d-476b-9a90-cc46fe292b09",
-      "width": 229,
-      "x": 819,
-      "y": 478,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "39eae216-6542-4a60-9476-e72d32367de3",
+      "width": 150,
+      "x": 248,
+      "y": 320,
       "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "e1631059-f57d-498b-b790-803ec4c220a3",
+      "width": 1,
+      "x": 774,
+      "y": 564,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 79,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "6c8ce520-65fe-4af0-9211-7b389c418126",
+      "width": 139,
+      "x": 1002,
+      "y": 248,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 97,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Flag",
+      "persistentUuid": "8e70cfc9-de8a-4b35-99e0-d66a4d63f9df",
+      "width": 73,
+      "x": 1034,
+      "y": 156,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Effect",
+      "persistentUuid": "42c0edfe-4deb-449b-aa44-7156c0d92dde",
+      "width": 0,
+      "x": 124,
+      "y": 64,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1238,
+      "keepRatio": true,
+      "layer": "",
+      "name": "LAVA",
+      "opacity": 0,
+      "persistentUuid": "f865d849-dd36-454a-b1ac-afe5b4840686",
+      "width": 4673,
+      "x": -1996,
+      "y": 713,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NIVEAU",
+      "persistentUuid": "ff6f7015-b56f-4fb0-977a-b459389982bb",
+      "width": 0,
+      "x": -57,
+      "y": 457,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -87,12 +189,108 @@
   ],
   "objects": [
     {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "effc1aeeba396030dc59441e0cd5a58cb9cd45cc668fdac9d83344dfa982bab5",
+      "name": "Flag",
+      "persistentUuid": "37664e71-0a2d-4624-b1d5-c22325f8d5a3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/images/flag.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 20,
+                        "y": 0
+                      },
+                      {
+                        "x": 20,
+                        "y": 28
+                      },
+                      {
+                        "x": 0,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Effect",
+      "persistentUuid": "65010bb1-3fb5-4f5c-9f51-50f12611929c",
+      "type": "PrimitiveDrawing::Drawer",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FlashTransitionPainter",
+          "type": "FlashTransitionPainter::FlashTransitionPainter",
+          "Progress": 0,
+          "Duration": 0,
+          "Type": "",
+          "Direction": "",
+          "MaxOpacity": 255
+        }
+      ],
+      "fillOpacity": 255,
+      "outlineSize": 1,
+      "outlineOpacity": 255,
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true,
+      "antialiasing": "none",
+      "fillColor": {
+        "r": 255,
+        "g": 255,
+        "b": 255
+      },
+      "outlineColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
       "assetStoreId": "",
       "bottomMargin": 0,
       "height": 32,
       "leftMargin": 0,
-      "name": "NewPanelSprite",
-      "persistentUuid": "ac20bd31-7c20-44b8-a275-414e86aec829",
+      "name": "LAVA",
+      "persistentUuid": "096b0aa8-7ecf-4aa8-8721-9a162decc752",
       "rightMargin": 0,
       "texture": "",
       "tiled": false,
@@ -104,17 +302,47 @@
       "behaviors": []
     },
     {
-      "assetStoreId": "cf293151af6644417848a1a7a84a471edaac9486ec4311d816fd51f5be6400af",
-      "name": "NEXT",
-      "persistentUuid": "25a22f61-e403-43ea-b177-956a3271c398",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variant": "Small Red Button",
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "NIVEAU",
+      "persistentUuid": "838180ae-7c45-4f6a-ac81-00ac59a958ba",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
+      "string": "Niveau 6",
+      "font": "assets/fonts/kenney_pixel_square.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
       "content": {
-        "LabelText": "Recommencer",
-        "PressedLabelOffsetY": 2
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Niveau 6",
+        "font": "assets/fonts/kenney_pixel_square.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "lineHeight": 0,
+        "color": "0;0;0"
       }
     }
   ],
@@ -122,65 +350,20 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "NewPanelSprite"
+        "objectName": "Flag"
       },
       {
-        "objectName": "NEXT"
+        "objectName": "Effect"
+      },
+      {
+        "objectName": "LAVA"
+      },
+      {
+        "objectName": "NIVEAU"
       }
     ]
   },
   "events": [
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyFromTextPressed"
-          },
-          "parameters": [
-            "",
-            "\"Escape\""
-          ]
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "MENU",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "MENU",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "ShowLayer"
-          },
-          "parameters": [
-            "",
-            "\"Calque de pause\""
-          ]
-        }
-      ]
-    },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
@@ -196,11 +379,11 @@
       "actions": [
         {
           "type": {
-            "value": "HideLayer"
+            "value": "ResetTimer"
           },
           "parameters": [
             "",
-            "\"Calque de pause\""
+            "\"CHRONO-TEMPS\""
           ]
         },
         {
@@ -208,9 +391,27 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "MENU",
+            "TEMPS",
             "=",
             "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "CenterCameraOnObject"
+          },
+          "parameters": [
+            "",
+            "Root",
+            "no",
+            "",
+            "5"
           ]
         }
       ]
@@ -220,21 +421,264 @@
       "conditions": [
         {
           "type": {
-            "value": "KeyFromTextPressed"
+            "value": "CollisionNP"
           },
           "parameters": [
+            "Root",
+            "LAVA",
             "",
-            "\"Escape\""
+            "",
+            ""
           ]
         },
         {
           "type": {
-            "value": "NumberVariable"
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySoundOnChannel"
           },
           "parameters": [
-            "MENU",
+            "",
+            "assets/audio/dead.wav",
+            "1",
+            "100",
+            "100",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "X_MORT",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"NIVEAU-6\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+          },
+          "parameters": [
+            "Root",
+            "PlatformerObject",
+            "\"Right\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Root",
+            "Animation",
+            "=",
+            "\"Marche_GAUCHE\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+          },
+          "parameters": [
+            "Root",
+            "PlatformerObject",
+            "\"Left\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Root",
+            "Animation",
+            "=",
+            "\"Marche_DROITE\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::IsObjectOnGivenFloor"
+              },
+              "parameters": [
+                "Root",
+                "PlatformerObject",
+                "PlatformLong",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::IsObjectOnGivenFloor"
+              },
+              "parameters": [
+                "Root",
+                "PlatformerObject",
+                "Platform",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": {
+            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+          },
+          "parameters": [
+            "Root",
+            "PlatformerObject"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+          },
+          "parameters": [
+            "Root",
+            "Animation"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundChannel"
+          },
+          "parameters": [
+            "",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundOnChannel"
+          },
+          "parameters": [
+            "",
+            "assets/audio/bruit-de-pas-dans-l_herbe.wav",
+            "2",
+            "100",
+            "100",
+            "1.5"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+          },
+          "parameters": [
+            "Root",
+            "PlatformerObject"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
+          },
+          "parameters": [
+            "Root",
+            "Animation"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeSprite"
+          },
+          "parameters": [
+            "Root",
             "=",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundChannel"
+          },
+          "parameters": [
+            "",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Root",
+            "Flag",
+            "",
+            "",
+            ""
           ]
         },
         {
@@ -250,21 +694,154 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "MENU",
+            "TEMPS",
             "=",
-            "0"
+            "TimerElapsedTime(\"CHRONO-TEMPS\")"
           ]
         },
         {
           "type": {
-            "value": "HideLayer"
+            "value": "PauseTimer"
           },
           "parameters": [
             "",
-            "\"Calque de pause\""
+            "\"CHRONO-TEMPS\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "SCENE_A_METTRE",
+            "=",
+            "\"dev\""
+          ]
+        },
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+          },
+          "parameters": [
+            "Effect",
+            "FlashTransitionPainter",
+            "\"0;0;0\"",
+            "0.6",
+            "\"Circular\"",
+            "\"Forward\"",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SaveState::CreateGameSaveStateInStorage"
+          },
+          "parameters": [
+            "",
+            "\"NIVEAU-ACTUEL\"",
+            "CurrentSceneName()"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Fin_NIVEAUX\"",
+            ""
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Up\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::SimulateControl"
+          },
+          "parameters": [
+            "Root",
+            "PlatformerObject",
+            "\"Jump\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::IsJumping"
+          },
+          "parameters": [
+            "Root",
+            "PlatformerObject"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "StopSoundChannel"
+          },
+          "parameters": [
+            "",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets/audio/sfx_jump-high.ogg",
+            "",
+            "100",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -398,6 +975,10 @@
       "type": "EffectCapability::EffectBehavior"
     },
     {
+      "name": "FlashTransitionPainter",
+      "type": "FlashTransitionPainter::FlashTransitionPainter"
+    },
+    {
       "name": "Flippable",
       "type": "FlippableCapability::FlippableBehavior"
     },
@@ -420,6 +1001,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }

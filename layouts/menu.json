@@ -168,7 +168,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Road to Aywen",
-      "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+      "font": "assets/fonts/kenney_pixel_square.ttf",
       "textAlignment": "left",
       "characterSize": 50,
       "color": {
@@ -191,7 +191,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Road to Aywen",
-        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "font": "assets/fonts/kenney_pixel_square.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 50,
@@ -267,7 +267,7 @@
       "name": "Micode_Aywen_HugoDécrypte",
       "persistentUuid": "557c5816-c977-41f0-af6c-bc6bed0cca5a",
       "rightMargin": 0,
-      "texture": "assets\\affiche-aywen.png",
+      "texture": "assets/images/ui/affiche_aywen.png",
       "tiled": false,
       "topMargin": 0,
       "type": "PanelSpriteObject::PanelSprite",
@@ -284,7 +284,7 @@
       "name": "Fond",
       "persistentUuid": "cf7a377f-5a25-40e4-87d6-3d34a6ed9720",
       "rightMargin": 0,
-      "texture": "assets\\Gemini_Generated_Image_qw5v7fqw5v7fqw5v.png",
+      "texture": "assets/images/generated/gemini_generated_image_qw5v7fqw5v7fqw5v.png",
       "tiled": false,
       "topMargin": 0,
       "type": "PanelSpriteObject::PanelSprite",
@@ -325,7 +325,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\root_1.png",
+                  "image": "assets/images/sprites/root_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -361,7 +361,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\root_2.png",
+                  "image": "assets/images/sprites/root_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -397,7 +397,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\root_3.png",
+                  "image": "assets/images/sprites/root_3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -433,7 +433,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\root_4.png",
+                  "image": "assets/images/sprites/root_4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -469,7 +469,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\root_5.png",
+                  "image": "assets/images/sprites/root_5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -505,7 +505,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\root_6.png",
+                  "image": "assets/images/sprites/root_6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -541,7 +541,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\root_7.png",
+                  "image": "assets/images/sprites/root_7.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -577,7 +577,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\root_8.png",
+                  "image": "assets/images/sprites/root_8.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -668,8 +668,8 @@
           },
           "parameters": [
             "",
-            "assets\\dragon-studio-button-press-382713.mp3",
-            "3",
+            "assets/audio/dragon_studio_button_press_382713.wav",
+            "2",
             "",
             "100",
             "0.8"
@@ -702,15 +702,31 @@
       "actions": [
         {
           "type": {
-            "value": "PlaySoundOnChannel"
+            "value": "StopSoundChannel"
           },
           "parameters": [
             "",
-            "assets\\u_vdwj1c20kz-game-background-sound-342336.mp3",
-            "1",
-            "yes",
-            "100",
-            "1"
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadSound"
+          },
+          "parameters": [
+            "",
+            "assets/audio/dragon_studio_button_press_382713.wav"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetSoundChannelVolume"
+          },
+          "parameters": [
+            "",
+            "2",
+            "=",
+            "100"
           ]
         },
         {
@@ -720,7 +736,7 @@
           "parameters": [
             "",
             "yes",
-            ""
+            "yes"
           ]
         },
         {
@@ -753,6 +769,19 @@
             "=",
             "0"
           ]
+        },
+        {
+          "type": {
+            "value": "PlayMusicOnChannel"
+          },
+          "parameters": [
+            "",
+            "assets/audio/u_vdwj1c20kz_game_background_sound_3423362.mp3",
+            "6",
+            "yes",
+            "100",
+            "1"
+          ]
         }
       ]
     },
@@ -782,12 +811,21 @@
       "actions": [
         {
           "type": {
+            "value": "StopMusicChannel"
+          },
+          "parameters": [
+            "",
+            "6"
+          ]
+        },
+        {
+          "type": {
             "value": "PlaySoundOnChannel"
           },
           "parameters": [
             "",
-            "assets\\dragon-studio-button-press-382713.mp3",
-            "3",
+            "assets/audio/dragon_studio_button_press_382713.wav",
+            "2",
             "",
             "100",
             "0.8"
@@ -801,6 +839,14 @@
             "SCENE_A_METTRE",
             "=",
             "\"NIVEAU-1\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.29"
           ]
         },
         {
@@ -898,11 +944,11 @@
           },
           "parameters": [
             "",
-            "assets\\dragon-studio-button-press-382713.mp3",
-            "3",
+            "assets/audio/dragon_studio_button_press_382713.wav",
+            "2",
             "",
             "100",
-            "0.8"
+            "1"
           ]
         },
         {
@@ -913,6 +959,14 @@
             "SCENE_A_METTRE",
             "=",
             "\"INTRO\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.29"
           ]
         },
         {

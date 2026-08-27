@@ -19,13 +19,13 @@ gdjs.Scene_95loadingCode.GDPlatformObjects1= [];
 gdjs.Scene_95loadingCode.GDPlatformObjects2= [];
 
 
-gdjs.Scene_95loadingCode.asyncCallback14600508 = function (runtimeScene, asyncObjectsList) {
+gdjs.Scene_95loadingCode.asyncCallback14738644 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Scene_95loadingCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(0).getAsString(), false);
 }
 gdjs.Scene_95loadingCode.localVariables.length = 0;
 }
-gdjs.Scene_95loadingCode.idToCallbackMap.set(14600508, gdjs.Scene_95loadingCode.asyncCallback14600508);
+gdjs.Scene_95loadingCode.idToCallbackMap.set(14738644, gdjs.Scene_95loadingCode.asyncCallback14738644);
 gdjs.Scene_95loadingCode.eventsList0 = function(runtimeScene) {
 
 {
@@ -35,7 +35,7 @@ gdjs.Scene_95loadingCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Scene_95loadingCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.6), (runtimeScene) => (gdjs.Scene_95loadingCode.asyncCallback14600508(runtimeScene, asyncObjectsList)), 14600508, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.6), (runtimeScene) => (gdjs.Scene_95loadingCode.asyncCallback14738644(runtimeScene, asyncObjectsList)), 14738644, asyncObjectsList);
 }
 }
 

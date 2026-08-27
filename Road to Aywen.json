@@ -1,7 +1,7 @@
 {
   "firstLayout": "MENU",
   "gdVersion": {
-    "build": 276,
+    "build": 279,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -13,19 +13,19 @@
     "antialisingEnabledOnMobile": false,
     "folderProject": true,
     "orientation": "default",
-    "packageName": "com.example.gamename",
+    "packageName": "com.electrolynx.road_to_aywen",
     "pixelsRounding": true,
     "projectUuid": "6fed7f18-e10a-4a56-96cc-cfef90a46cbb",
     "scaleMode": "nearest",
     "sizeOnStartupMode": "adaptWidth",
     "templateSlug": "",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "name": "Road to Aywen",
     "description": "",
     "author": "",
     "windowWidth": 1280,
     "windowHeight": 720,
-    "latestCompilationDirectory": "C:\\Users\\victor\\Downloads\\RoadToAywen_v1",
+    "latestCompilationDirectory": "/home/victor/GDevelop/Road_To_Aywen/build",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -37,7 +37,7 @@
       "android-icon-72": "",
       "android-icon-96": "",
       "android-windowSplashScreenAnimatedIcon": "",
-      "desktop-icon-512": "",
+      "desktop-icon-512": "assets/images/sprites/root_6.png",
       "ios-icon-100": "",
       "ios-icon-1024": "",
       "ios-icon-114": "",
@@ -61,7 +61,7 @@
     "loadingScreen": {
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
-      "backgroundImageResourceName": "",
+      "backgroundImageResourceName": "assets/bannière.png",
       "gdevelopLogoStyle": "light",
       "logoAndProgressFadeInDuration": 0.2,
       "logoAndProgressLogoFadeInDelay": 0,
@@ -97,10 +97,10 @@
   "resources": {
     "resources": [
       {
-        "file": "assets/Kenney Pixel Square.ttf",
+        "file": "assets/fonts/kenney_pixel_square.ttf",
         "kind": "font",
         "metadata": "",
-        "name": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "name": "assets/fonts/kenney_pixel_square.ttf",
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
@@ -108,10 +108,10 @@
         }
       },
       {
-        "file": "assets/8BitOperatorPlus8Regular_Edited.png",
+        "file": "assets/images/8bitoperatorplus8regular_edited.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\8BitOperatorPlus8Regular_Edited.png",
+        "name": "assets/images/8bitoperatorplus8regular_edited.png",
         "smoothed": false,
         "userAdded": false,
         "origin": {
@@ -120,10 +120,10 @@
         }
       },
       {
-        "file": "assets/Small Red Button_Hovered.png",
+        "file": "assets/images/ui/small_red_button_hovered.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Small Red Button_Hovered.png",
+        "name": "assets/images/ui/small_red_button_hovered.png",
         "smoothed": false,
         "userAdded": false,
         "origin": {
@@ -132,10 +132,10 @@
         }
       },
       {
-        "file": "assets/Small Red Button_Idle.png",
+        "file": "assets/images/ui/small_red_button_idle.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Small Red Button_Idle.png",
+        "name": "assets/images/ui/small_red_button_idle.png",
         "smoothed": false,
         "userAdded": false,
         "origin": {
@@ -144,10 +144,10 @@
         }
       },
       {
-        "file": "assets/Small Red Button_Pressed.png",
+        "file": "assets/images/ui/small_red_button_pressed.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Small Red Button_Pressed.png",
+        "name": "assets/images/ui/small_red_button_pressed.png",
         "smoothed": false,
         "userAdded": false,
         "origin": {
@@ -156,10 +156,10 @@
         }
       },
       {
-        "file": "assets/8BitOperatorPlus8Regular_Edited.fnt",
+        "file": "assets/bitmap-fonts/8bitoperatorplus8regular_edited.fnt",
         "kind": "bitmapFont",
         "metadata": "",
-        "name": "assets\\8BitOperatorPlus8Regular_Edited.fnt",
+        "name": "assets/bitmap-fonts/8bitoperatorplus8regular_edited.fnt",
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/6b410f07a3a02e721a49d41795e84b56707ef28ac4d095d55f1fd1093760e134_8BitOperatorPlus8Regular_Edited.fnt",
@@ -167,10 +167,10 @@
         }
       },
       {
-        "file": "assets/Square White Slider Border.png",
+        "file": "assets/images/ui/square_white_slider_border.png",
         "kind": "image",
         "metadata": "",
-        "name": "Square White Slider Border.png",
+        "name": "assets/images/ui/square_white_slider_border.png",
         "smoothed": false,
         "userAdded": false,
         "origin": {
@@ -179,10 +179,10 @@
         }
       },
       {
-        "file": "assets/Square White Slider Fill Bar.png",
+        "file": "assets/images/ui/square_white_slider_fill_bar.png",
         "kind": "image",
         "metadata": "",
-        "name": "Square White Slider Fill Bar.png",
+        "name": "assets/images/ui/square_white_slider_fill_bar.png",
         "smoothed": false,
         "userAdded": false,
         "origin": {
@@ -191,10 +191,10 @@
         }
       },
       {
-        "file": "assets/Square White Slider Thumb.png",
+        "file": "assets/images/ui/square_white_slider_thumb.png",
         "kind": "image",
         "metadata": "",
-        "name": "Square White Slider Thumb.png",
+        "name": "assets/images/ui/square_white_slider_thumb.png",
         "smoothed": false,
         "userAdded": false,
         "origin": {
@@ -203,10 +203,10 @@
         }
       },
       {
-        "file": "assets/AudioOff.png",
+        "file": "assets/images/ui/audiooff.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\AudioOff.png",
+        "name": "assets/images/ui/audiooff.png",
         "smoothed": false,
         "userAdded": false,
         "origin": {
@@ -215,10 +215,10 @@
         }
       },
       {
-        "file": "assets/AudioOn.png",
+        "file": "assets/images/ui/audioon.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\AudioOn.png",
+        "name": "assets/images/ui/audioon.png",
         "smoothed": false,
         "userAdded": false,
         "origin": {
@@ -227,10 +227,10 @@
         }
       },
       {
-        "file": "assets/Darkening.png",
+        "file": "assets/images/darkening.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Darkening.png",
+        "name": "assets/images/darkening.png",
         "smoothed": false,
         "userAdded": false,
         "origin": {
@@ -239,10 +239,10 @@
         }
       },
       {
-        "file": "assets/GearIcon.png",
+        "file": "assets/images/ui/gearicon.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\GearIcon.png",
+        "name": "assets/images/ui/gearicon.png",
         "smoothed": false,
         "userAdded": false,
         "origin": {
@@ -251,30 +251,20 @@
         }
       },
       {
-        "file": "u_vdwj1c20kz-game-background-sound-342336.mp3",
+        "file": "assets/audio/u_vdwj1c20kz_game_background_sound_342336.mp3",
         "kind": "audio",
         "metadata": "",
-        "name": "u_vdwj1c20kz-game-background-sound-342336.mp3",
-        "preloadAsMusic": false,
+        "name": "assets/audio/u_vdwj1c20kz_game_background_sound_342336.mp3",
+        "preloadAsMusic": true,
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
       },
       {
-        "file": "dragon-studio-button-press-382713.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "dragon-studio-button-press-382713.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/8BitOperatorPlus8Regular_Edited2.fnt",
+        "file": "assets/bitmap-fonts/8bitoperatorplus8regular_edited2.fnt",
         "kind": "bitmapFont",
         "metadata": "",
-        "name": "assets\\8BitOperatorPlus8Regular_Edited.fnt2",
+        "name": "assets/bitmap-fonts/8bitoperatorplus8regular_edited2.fnt",
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Bitmap texts/GDevelop/6b410f07a3a02e721a49d41795e84b56707ef28ac4d095d55f1fd1093760e134_8BitOperatorPlus8Regular_Edited.fnt",
@@ -282,26 +272,26 @@
         }
       },
       {
-        "file": "assets/NewPanelSprite.png",
+        "file": "assets/images/sprites/newpanelsprite.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "NewPanelSprite",
+        "name": "assets/images/sprites/newpanelsprite.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/NewPanelSprite2.png",
+        "file": "assets/images/sprites/newpanelsprite2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "NewPanelSprite2",
+        "name": "assets/images/sprites/newpanelsprite2.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/lava flat bright desat surface.png",
+        "file": "assets/images/lava_flat_bright_desat_surface.png",
         "kind": "image",
         "metadata": "",
-        "name": "lava flat bright desat surface.png",
+        "name": "assets/images/lava_flat_bright_desat_surface.png",
         "smoothed": false,
         "userAdded": false,
         "origin": {
@@ -310,10 +300,10 @@
         }
       },
       {
-        "file": "assets/Flag.png",
+        "file": "assets/images/flag.png",
         "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/Flag.png\",\"extension\":\".png\"}",
-        "name": "Flag.png",
+        "metadata": "{\"localFilePath\":\"assets/images/flag.png\",\"extension\":\".png\"}",
+        "name": "assets/images/flag.png",
         "smoothed": false,
         "userAdded": false,
         "origin": {
@@ -322,221 +312,211 @@
         }
       },
       {
-        "file": "assets/NewPanelSprite3.png",
+        "file": "assets/images/sprites/newpanelsprite3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "NewPanelSprite3",
+        "name": "assets/images/sprites/newpanelsprite3.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/affiche-aywen.png",
+        "file": "assets/images/ui/affiche_aywen.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\affiche-aywen.png",
+        "name": "assets/images/ui/affiche_aywen.png",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/Gemini_Generated_Image_qw5v7fqw5v7fqw5v.png",
+        "file": "assets/images/generated/gemini_generated_image_qw5v7fqw5v7fqw5v.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Gemini_Generated_Image_qw5v7fqw5v7fqw5v.png",
+        "name": "assets/images/generated/gemini_generated_image_qw5v7fqw5v7fqw5v.png",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/root_1 - Copie.png",
+        "file": "assets/images/sprites/root_1_copie.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\root_1 - Copie.png",
+        "name": "assets/images/sprites/root_1_copie.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/root_1.png",
+        "file": "assets/images/sprites/root_1.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\root_1.png",
+        "name": "assets/images/sprites/root_1.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/root_2 - Copie.png",
+        "file": "assets/images/sprites/root_2_copie.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\root_2 - Copie.png",
+        "name": "assets/images/sprites/root_2_copie.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/root_2.png",
+        "file": "assets/images/sprites/root_2.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\root_2.png",
+        "name": "assets/images/sprites/root_2.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/root_3 - Copie.png",
+        "file": "assets/images/sprites/root_3_copie.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\root_3 - Copie.png",
+        "name": "assets/images/sprites/root_3_copie.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/root_3.png",
+        "file": "assets/images/sprites/root_3.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\root_3.png",
+        "name": "assets/images/sprites/root_3.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/root_4 - Copie.png",
+        "file": "assets/images/sprites/root_4_copie.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\root_4 - Copie.png",
+        "name": "assets/images/sprites/root_4_copie.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/root_4.png",
+        "file": "assets/images/sprites/root_4.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\root_4.png",
+        "name": "assets/images/sprites/root_4.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/root_5 - Copie.png",
+        "file": "assets/images/sprites/root_5_copie.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\root_5 - Copie.png",
+        "name": "assets/images/sprites/root_5_copie.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/root_5.png",
+        "file": "assets/images/sprites/root_5.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\root_5.png",
+        "name": "assets/images/sprites/root_5.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/root_6 - Copie.png",
+        "file": "assets/images/sprites/root_6_copie.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\root_6 - Copie.png",
+        "name": "assets/images/sprites/root_6_copie.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/root_6.png",
+        "file": "assets/images/sprites/root_6.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\root_6.png",
+        "name": "assets/images/sprites/root_6.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/root_7 - Copie.png",
+        "file": "assets/images/sprites/root_7_copie.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\root_7 - Copie.png",
+        "name": "assets/images/sprites/root_7_copie.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/root_7.png",
+        "file": "assets/images/sprites/root_7.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\root_7.png",
+        "name": "assets/images/sprites/root_7.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/root_8 - Copie.png",
+        "file": "assets/images/sprites/root_8_copie.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\root_8 - Copie.png",
+        "name": "assets/images/sprites/root_8_copie.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/root_8.png",
+        "file": "assets/images/sprites/root_8.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\root_8.png",
+        "name": "assets/images/sprites/root_8.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/Rick Roll (Different link + no ads).mp4",
+        "file": "assets/video/rick_roll_different_link_no_ads_.mp4",
         "kind": "video",
         "metadata": "",
-        "name": "assets/Rick Roll (Different link + no ads).mp4",
+        "name": "assets/video/rick_roll_different_link_no_ads_.mp4",
         "userAdded": false
       },
       {
-        "file": "assets/aywen-setup-intro.png",
+        "file": "assets/images/aywen_setup_intro.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\aywen-setup-intro.png",
+        "name": "assets/images/aywen_setup_intro.png",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/Root-barrière.png",
+        "file": "assets/images/root_barriere.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Root-barrière.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Root-tombe.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Root-tombe.png",
+        "name": "assets/images/root_barriere.png",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/Root-trotoir.png",
+        "file": "assets/images/root_tombe.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Root-trotoir.png",
-        "smoothed": false,
+        "name": "assets/images/root_tombe.png",
+        "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/dragon-studio-button-press-382713.mp3",
-        "kind": "audio",
+        "file": "assets/images/root_trotoir.png",
+        "kind": "image",
         "metadata": "",
-        "name": "assets\\dragon-studio-button-press-382713.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
+        "name": "assets/images/root_trotoir.png",
+        "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/u_vdwj1c20kz-game-background-sound-342336.mp3",
+        "file": "assets/audio/u_vdwj1c20kz_game_background_sound_342336.mp3",
         "kind": "audio",
         "metadata": "",
-        "name": "assets\\u_vdwj1c20kz-game-background-sound-342336.mp3",
+        "name": "assets/audio/u_vdwj1c20kz_game_background_sound_342336.mp3",
         "preloadAsMusic": true,
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
       },
       {
-        "file": "assets/Arrow Key_Left.png",
+        "file": "assets/images/arrow_key_left.png",
         "kind": "image",
         "metadata": "",
-        "name": "Arrow Key_Left.png",
+        "name": "assets/images/arrow_key_left.png",
         "smoothed": false,
         "userAdded": false,
         "origin": {
@@ -545,10 +525,10 @@
         }
       },
       {
-        "file": "assets/Arrow Key_Right.png",
+        "file": "assets/images/arrow_key_right.png",
         "kind": "image",
         "metadata": "",
-        "name": "Arrow Key_Right.png",
+        "name": "assets/images/arrow_key_right.png",
         "smoothed": false,
         "userAdded": false,
         "origin": {
@@ -557,171 +537,207 @@
         }
       },
       {
-        "file": "assets/platform-green.png",
+        "file": "assets/images/sprites/platform_green.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets/platform-green.png",
+        "name": "assets/images/sprites/platform_green.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/platform-green-long.png",
+        "file": "assets/images/sprites/platform_green_long.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets/platform-green-long.png",
+        "name": "assets/images/sprites/platform_green_long.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/Miniatures/minia-1.jpg",
+        "file": "assets/Miniatures/minia_1.jpg",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Miniatures\\minia-1.jpg",
+        "name": "assets/Miniatures/minia_1.jpg",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite2.png",
+        "file": "assets/images/sprites/newsprite2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite2",
+        "name": "assets/images/sprites/newsprite2.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/Miniatures/minia-2.jpg",
+        "file": "assets/Miniatures/minia_2.jpg",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Miniatures\\minia-2.jpg",
+        "name": "assets/Miniatures/minia_2.jpg",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/Trool_Aywen/Capture d'écran 2026-08-05 195720.png",
+        "file": "assets/Trool_Aywen/capture_d_ecran_2026_08_05_195720.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Trool_Aywen\\Capture d'écran 2026-08-05 195720.png",
-        "smoothed": false,
+        "name": "assets/Trool_Aywen/capture_d_ecran_2026_08_05_195720.png",
+        "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/Trool_Aywen/Aywen-1.mp4",
+        "file": "assets/Trool_Aywen/aywen_1.mp4",
         "kind": "video",
         "metadata": "",
-        "name": "assets\\Trool_Aywen\\Aywen-1.mp4",
+        "name": "assets/Trool_Aywen/aywen_1.mp4",
         "userAdded": false
       },
       {
-        "file": "assets/Trool_Aywen/La Chine - Fuze musique.mp4",
+        "file": "assets/Trool_Aywen/la_chine_fuze_musique.mp4",
         "kind": "video",
         "metadata": "",
-        "name": "assets\\Trool_Aywen\\La Chine - Fuze musique.mp4",
+        "name": "assets/Trool_Aywen/la_chine_fuze_musique.mp4",
         "userAdded": false
       },
       {
-        "file": "assets/Trool_Aywen/Déconnage.ogg",
+        "file": "assets/Trool_Aywen/deconnage.ogg",
         "kind": "audio",
         "metadata": "",
-        "name": "assets\\Trool_Aywen\\Déconnage.ogg",
+        "name": "assets/Trool_Aywen/deconnage.ogg",
         "preloadAsMusic": false,
-        "preloadAsSound": false,
+        "preloadAsSound": true,
         "preloadInCache": false,
         "userAdded": false
       },
       {
-        "file": "assets/Trool_Aywen/LA_CHINE.ogg",
+        "file": "assets/Trool_Aywen/la_chine.ogg",
         "kind": "audio",
         "metadata": "",
-        "name": "assets\\Trool_Aywen\\LA_CHINE.ogg",
+        "name": "assets/Trool_Aywen/la_chine.ogg",
         "preloadAsMusic": false,
-        "preloadAsSound": false,
+        "preloadAsSound": true,
         "preloadInCache": false,
         "userAdded": false
       },
       {
-        "file": "assets/Trool_Aywen/Pipe.ogg",
+        "file": "assets/Trool_Aywen/pipe.ogg",
         "kind": "audio",
         "metadata": "",
-        "name": "assets\\Trool_Aywen\\Pipe.ogg",
+        "name": "assets/Trool_Aywen/pipe.ogg",
         "preloadAsMusic": false,
-        "preloadAsSound": false,
+        "preloadAsSound": true,
         "preloadInCache": false,
         "userAdded": false
       },
       {
-        "file": "assets/Trool_Aywen/Mouais.png",
+        "file": "assets/Trool_Aywen/mouais.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Trool_Aywen\\Mouais.png",
+        "name": "assets/Trool_Aywen/mouais.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/images/arrow_key_up.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/images/arrow_key_up.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/audio/grasslands_theme.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/audio/grasslands_theme.mp3",
+        "preloadAsMusic": true,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/audio/u_vdwj1c20kz_game_background_sound_3423362.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/audio/u_vdwj1c20kz_game_background_sound_3423362.mp3",
+        "preloadAsMusic": true,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/audio/bruit-de-pas-dans-l_herbe.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/audio/bruit-de-pas-dans-l_herbe.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/audio/dead.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/audio/dead.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/audio/Coins 9.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/audio/Coins 9.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/audio/sfx_jump-high.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/audio/sfx_jump-high.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/images/lava_flat_bright_desat_surface2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/images/lava_flat_bright_desat_surface",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/Arrow Key_Up.png",
+        "file": "assets/audio/dragon_studio_button_press_382713.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/audio/dragon_studio_button_press_382713.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/audio/dragon_studio_button_press_382713.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/audio/dragon_studio_button_press_382713.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bannière.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets/Arrow Key_Up.png",
+        "name": "assets/bannière.png",
         "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Grasslands Theme.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets/Grasslands Theme.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "build/app/Déconnage.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "build/app/Déconnage.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "build/app/dragon-studio-button-press-3827132.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "build/app/dragon-studio-button-press-3827132.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "build/app/LA_CHINE.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "build/app/LA_CHINE.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "build/app/Pipe.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "build/app/Pipe.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "build/app/u_vdwj1c20kz-game-background-sound-3423362.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "build/app/u_vdwj1c20kz-game-background-sound-3423362.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
         "userAdded": false
       }
     ]
@@ -771,7 +787,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\root_1.png",
+                  "image": "assets/images/sprites/root_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -807,7 +823,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\root_2.png",
+                  "image": "assets/images/sprites/root_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -843,7 +859,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\root_3.png",
+                  "image": "assets/images/sprites/root_3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -879,7 +895,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\root_4.png",
+                  "image": "assets/images/sprites/root_4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -915,7 +931,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\root_5.png",
+                  "image": "assets/images/sprites/root_5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -951,7 +967,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\root_6.png",
+                  "image": "assets/images/sprites/root_6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -987,7 +1003,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\root_7.png",
+                  "image": "assets/images/sprites/root_7.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1023,7 +1039,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\root_8.png",
+                  "image": "assets/images/sprites/root_8.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1072,7 +1088,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\root_1 - Copie.png",
+                  "image": "assets/images/sprites/root_1_copie.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1108,7 +1124,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\root_2 - Copie.png",
+                  "image": "assets/images/sprites/root_2_copie.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1144,7 +1160,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\root_3 - Copie.png",
+                  "image": "assets/images/sprites/root_3_copie.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1180,7 +1196,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\root_4 - Copie.png",
+                  "image": "assets/images/sprites/root_4_copie.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1216,7 +1232,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\root_5 - Copie.png",
+                  "image": "assets/images/sprites/root_5_copie.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1252,7 +1268,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\root_6 - Copie.png",
+                  "image": "assets/images/sprites/root_6_copie.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1288,7 +1304,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\root_7 - Copie.png",
+                  "image": "assets/images/sprites/root_7_copie.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1324,7 +1340,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\root_8 - Copie.png",
+                  "image": "assets/images/sprites/root_8_copie.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1372,7 +1388,7 @@
       "name": "Micode_Aywen_HugoDécrypte2",
       "persistentUuid": "883d7011-63be-41ad-bbb6-1bb960daea3e",
       "rightMargin": 0,
-      "texture": "assets\\affiche-aywen.png",
+      "texture": "assets/images/ui/affiche_aywen.png",
       "tiled": false,
       "topMargin": 0,
       "type": "PanelSpriteObject::PanelSprite",
@@ -1410,7 +1426,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/platform-green-long.png",
+                  "image": "assets/images/sprites/platform_green_long.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1479,7 +1495,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/platform-green.png",
+                  "image": "assets/images/sprites/platform_green.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1602,6 +1618,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/fin_niveaux"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/dev"
     }
   ],
   "externalEvents": [],

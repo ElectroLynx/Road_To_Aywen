@@ -299,7 +299,7 @@
       "name": "AYWEN",
       "persistentUuid": "a39be034-dc14-4074-ae21-970f99d123c5",
       "rightMargin": 0,
-      "texture": "assets\\Trool_Aywen\\Mouais.png",
+      "texture": "assets/Trool_Aywen/mouais.png",
       "tiled": false,
       "topMargin": 0,
       "type": "PanelSpriteObject::PanelSprite",
@@ -338,7 +338,7 @@
       "effects": [],
       "behaviors": [],
       "string": "NIVEAU 5",
-      "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+      "font": "assets/fonts/kenney_pixel_square.ttf",
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
@@ -361,7 +361,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "NIVEAU 5",
-        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "font": "assets/fonts/kenney_pixel_square.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 20,
@@ -391,7 +391,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Flag.png",
+                  "image": "assets/images/flag.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -544,7 +544,7 @@
               },
               "parameters": [
                 "",
-                "assets\\Trool_Aywen\\Déconnage.ogg",
+                "assets/Trool_Aywen/deconnage.ogg",
                 "",
                 "100",
                 "1"
@@ -573,7 +573,7 @@
               },
               "parameters": [
                 "",
-                "assets\\Trool_Aywen\\LA_CHINE.ogg",
+                "assets/Trool_Aywen/la_chine.ogg",
                 "",
                 "40",
                 "1"
@@ -602,7 +602,7 @@
               },
               "parameters": [
                 "",
-                "assets\\Trool_Aywen\\Pipe.ogg",
+                "assets/Trool_Aywen/pipe.ogg",
                 "",
                 "100",
                 "1"
@@ -644,9 +644,28 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "PlaySoundOnChannel"
+          },
+          "parameters": [
+            "",
+            "assets/audio/dead.wav",
+            "1",
+            "100",
+            "100",
+            "1"
+          ]
+        },
         {
           "type": {
             "value": "SetNumberVariable"
@@ -665,6 +684,14 @@
             "",
             "\"NIVEAU-5\"",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.3"
           ]
         }
       ]
@@ -764,12 +791,48 @@
       "conditions": [
         {
           "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::IsObjectOnGivenFloor"
+              },
+              "parameters": [
+                "Root",
+                "PlatformerObject",
+                "PlatformLong",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::IsObjectOnGivenFloor"
+              },
+              "parameters": [
+                "Root",
+                "PlatformerObject",
+                "Platform",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": {
             "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
           },
           "parameters": [
             "Root",
             "PlatformerObject"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -780,6 +843,28 @@
           "parameters": [
             "Root",
             "Animation"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundChannel"
+          },
+          "parameters": [
+            "",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundOnChannel"
+          },
+          "parameters": [
+            "",
+            "assets/audio/bruit-de-pas-dans-l_herbe.wav",
+            "2",
+            "100",
+            "100",
+            "1.5"
           ]
         }
       ]
@@ -869,7 +954,7 @@
           "parameters": [
             "SCENE_A_METTRE",
             "=",
-            "\"NIVEAU-5\""
+            "\"NIVEAU-6\""
           ]
         },
         {
@@ -948,6 +1033,54 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::IsJumping"
+          },
+          "parameters": [
+            "Root",
+            "PlatformerObject"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "StopSoundChannel"
+          },
+          "parameters": [
+            "",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets/audio/sfx_jump-high.ogg",
+            "",
+            "50",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [

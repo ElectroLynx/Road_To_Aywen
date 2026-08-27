@@ -1198,7 +1198,7 @@
                       "sprites": [
                         {
                           "hasCustomCollisionMask": true,
-                          "image": "assets\\GearIcon.png",
+                          "image": "assets/images/ui/gearicon.png",
                           "points": [],
                           "originPoint": {
                             "name": "origine",
@@ -1245,7 +1245,7 @@
               "leftMargin": 0,
               "name": "Background",
               "rightMargin": 0,
-              "texture": "assets\\Darkening.png",
+              "texture": "assets/images/darkening.png",
               "tiled": false,
               "topMargin": 0,
               "type": "PanelSpriteObject::PanelSprite",
@@ -1415,7 +1415,7 @@
                       "sprites": [
                         {
                           "hasCustomCollisionMask": true,
-                          "image": "assets\\AudioOn.png",
+                          "image": "assets/images/ui/audioon.png",
                           "points": [],
                           "originPoint": {
                             "name": "origine",
@@ -1463,7 +1463,7 @@
                       "sprites": [
                         {
                           "hasCustomCollisionMask": true,
-                          "image": "assets\\AudioOff.png",
+                          "image": "assets/images/ui/audiooff.png",
                           "points": [],
                           "originPoint": {
                             "name": "origine",

@@ -129,7 +129,7 @@
       "name": "Fond",
       "persistentUuid": "9670bfe5-233c-4966-b27b-9da2f4abd35f",
       "rightMargin": 0,
-      "texture": "assets\\aywen-setup-intro-2.png",
+      "texture": "assets/images/aywen_setup_intro.png",
       "tiled": false,
       "topMargin": 0,
       "type": "PanelSpriteObject::PanelSprite",
@@ -151,7 +151,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Aywen - \"Allez c'est parti pour une nouvelle vidéo pour mon serveur OpenMC\"",
-      "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+      "font": "assets/fonts/kenney_pixel_square.ttf",
       "textAlignment": "center",
       "characterSize": 40,
       "color": {
@@ -174,7 +174,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Aywen - \"Allez c'est parti pour une nouvelle vidéo pour mon serveur OpenMC\"",
-        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "font": "assets/fonts/kenney_pixel_square.ttf",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
         "characterSize": 40,
@@ -190,7 +190,7 @@
       "name": "Fond_text",
       "persistentUuid": "eb937f10-9597-41de-91bd-fa53f833ad26",
       "rightMargin": 0,
-      "texture": "NewPanelSprite",
+      "texture": "assets/images/sprites/newpanelsprite.png",
       "tiled": false,
       "topMargin": 0,
       "type": "PanelSpriteObject::PanelSprite",
@@ -329,7 +329,7 @@
           },
           "parameters": [
             "Fond",
-            "assets\\aywen-setup-intro.png",
+            "assets/images/aywen_setup_intro.png",
             ""
           ]
         },
@@ -455,7 +455,7 @@
           },
           "parameters": [
             "Fond",
-            "assets\\Root-barrière.png",
+            "assets/images/root_barriere.png",
             ""
           ]
         },
@@ -605,7 +605,7 @@
           },
           "parameters": [
             "Fond",
-            "assets\\Root-tombe.png",
+            "assets/images/root_tombe.png",
             ""
           ]
         },
@@ -648,7 +648,7 @@
           },
           "parameters": [
             "Fond",
-            "assets\\Root-trotoir.png",
+            "assets/images/root_trotoir.png",
             ""
           ]
         },
@@ -700,21 +700,6 @@
       "actions": [
         {
           "type": {
-            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
-          },
-          "parameters": [
-            "Effect",
-            "FlashTransitionPainter",
-            "\"212;109;57\"",
-            "0.8",
-            "\"Circular\"",
-            "\"Forward\"",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "SaveState::CreateGameSaveStateInStorage"
           },
           "parameters": [
@@ -737,7 +722,7 @@
           },
           "parameters": [
             "",
-            "\"MENU\"",
+            "\"Scene_loading\"",
             ""
           ]
         },
@@ -749,6 +734,16 @@
             "\"VIEW-INTRO\"",
             "\"INTRO\"",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "SCENE_A_METTRE",
+            "=",
+            "\"MENU\""
           ]
         }
       ]

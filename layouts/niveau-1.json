@@ -1,13 +1,13 @@
 {
-  "b": 27,
+  "b": 226,
   "disableInputWhenNotFocused": true,
   "mangledName": "NIVEAU_451",
   "name": "NIVEAU-1",
-  "r": 208,
+  "r": 74,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 2,
+  "v": 144,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6672773998329979,
+    "zoomFactor": 1.2121641972173676,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -39,7 +39,7 @@
       "persistentUuid": "00261df9-51d6-492a-9498-4640111c8ea8",
       "width": 70,
       "x": 96,
-      "y": 533,
+      "y": 522,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -72,8 +72,8 @@
       "name": "Flag",
       "persistentUuid": "a2feffeb-fbd0-4de9-bdff-f4bc89a5a460",
       "width": 73,
-      "x": 1114,
-      "y": 132,
+      "x": 1156,
+      "y": 137,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -90,7 +90,7 @@
       "width": 0,
       "x": 17,
       "y": 19,
-      "zOrder": 7,
+      "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -150,40 +150,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 84,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform3",
-      "persistentUuid": "828c79f6-6732-4d41-8d6f-56df13e44f94",
-      "width": 135,
-      "x": 319,
-      "y": 575,
-      "zOrder": -2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 108,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform3",
-      "persistentUuid": "99c11a96-7686-46b9-8b25-12d2472888dc",
-      "width": 155,
-      "x": 889,
-      "y": 269,
-      "zOrder": -4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 118,
       "keepRatio": true,
       "layer": "",
@@ -193,23 +159,6 @@
       "x": 513,
       "y": 420,
       "zOrder": -3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 51,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform3",
-      "persistentUuid": "5313a79a-2dfc-4e1a-b1a7-c962b6043bdc",
-      "width": 98,
-      "x": 78,
-      "y": 644,
-      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -235,23 +184,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 73,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform3",
-      "persistentUuid": "e0e3edde-59d6-4027-b0e9-33d5829bc14d",
-      "width": 117,
-      "x": 1091,
-      "y": 227,
-      "zOrder": -5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 78,
       "keepRatio": true,
       "layer": "",
@@ -261,6 +193,74 @@
       "x": 180,
       "y": 322,
       "zOrder": -7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 79,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "999a98a9-ec6e-4d88-b647-90938aaaba62",
+      "width": 132,
+      "x": 1128,
+      "y": 233,
+      "zOrder": -9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 88,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "7fe2900c-bb71-4b42-a267-b99af887377b",
+      "width": 148,
+      "x": 936,
+      "y": 330,
+      "zOrder": -8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 66,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "33917dbd-4e06-45b4-a9e6-eb1793a04698",
+      "width": 120,
+      "x": 73,
+      "y": 626,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 99,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "29110f89-f569-446a-9db6-d1fde769591f",
+      "width": 154,
+      "x": 293,
+      "y": 529,
+      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -279,16 +279,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "assets/images/lava_flat_bright_desat_surface",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.025,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "lava flat bright desat surface.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/images/lava_flat_bright_desat_surface",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -349,7 +350,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Flag.png",
+                  "image": "assets/images/flag.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -437,7 +438,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Niveau 1",
-      "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+      "font": "assets/fonts/kenney_pixel_square.ttf",
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
@@ -460,7 +461,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Niveau 1",
-        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "font": "assets/fonts/kenney_pixel_square.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 20,
@@ -489,7 +490,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Arrow Key_Left.png",
+                  "image": "assets/images/arrow_key_left.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -550,7 +551,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Arrow Key_Right.png",
+                  "image": "assets/images/arrow_key_right.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -580,75 +581,6 @@
                       {
                         "x": 13,
                         "y": 86
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Platform3",
-      "persistentUuid": "29302f9a-cb3b-45f1-b08f-06aac3f50e2a",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "canBeGrabbed": true,
-          "platformType": "NormalPlatform",
-          "yGrabOffset": 0
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/platform-green.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 48,
-                        "y": 0
-                      },
-                      {
-                        "x": 48,
-                        "y": 9
-                      },
-                      {
-                        "x": 0,
-                        "y": 9
                       }
                     ]
                   ]
@@ -688,7 +620,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/platform-green-long.png",
+                  "image": "assets/images/sprites/platform_green_long.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -749,7 +681,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/Arrow Key_Up.png",
+                  "image": "assets/images/arrow_key_up.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -810,9 +742,6 @@
       },
       {
         "objectName": "Key_RIGHT"
-      },
-      {
-        "objectName": "Platform3"
       },
       {
         "objectName": "PlatformLong"
@@ -889,9 +818,28 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "PlaySoundOnChannel"
+          },
+          "parameters": [
+            "",
+            "assets/audio/dead.wav",
+            "1",
+            "100",
+            "100",
+            "1"
+          ]
+        },
         {
           "type": {
             "value": "SetNumberVariable"
@@ -900,6 +848,14 @@
             "X_MORT",
             "+",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.3"
           ]
         },
         {
@@ -975,31 +931,6 @@
       "conditions": [
         {
           "type": {
-            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
-          },
-          "parameters": [
-            "Root",
-            "PlatformerObject"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
-          },
-          "parameters": [
-            "Root",
-            "Animation"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
             "inverted": true,
             "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
           },
@@ -1027,6 +958,15 @@
             "Root",
             "=",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundChannel"
+          },
+          "parameters": [
+            "",
+            "2"
           ]
         }
       ]
@@ -1159,6 +1099,137 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::IsObjectOnGivenFloor"
+              },
+              "parameters": [
+                "Root",
+                "PlatformerObject",
+                "PlatformLong",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::IsObjectOnGivenFloor"
+              },
+              "parameters": [
+                "Root",
+                "PlatformerObject",
+                "Platform",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": {
+            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+          },
+          "parameters": [
+            "Root",
+            "PlatformerObject"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+          },
+          "parameters": [
+            "Root",
+            "Animation"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundChannel"
+          },
+          "parameters": [
+            "",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundOnChannel"
+          },
+          "parameters": [
+            "",
+            "assets/audio/bruit-de-pas-dans-l_herbe.wav",
+            "2",
+            "100",
+            "100",
+            "1.5"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::IsJumping"
+          },
+          "parameters": [
+            "Root",
+            "PlatformerObject"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "StopSoundChannel"
+          },
+          "parameters": [
+            "",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets/audio/sfx_jump-high.ogg",
+            "",
+            "100",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [

@@ -139,7 +139,7 @@
       "name": "Fin",
       "persistentUuid": "1cf1d689-655f-4b33-b298-a7d2e12a0a6f",
       "rightMargin": 0,
-      "texture": "NewPanelSprite3",
+      "texture": "assets/images/sprites/newpanelsprite3.png",
       "tiled": false,
       "topMargin": 0,
       "type": "PanelSpriteObject::PanelSprite",
@@ -161,7 +161,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Niveau terminé !",
-      "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+      "font": "assets/fonts/kenney_pixel_square.ttf",
       "textAlignment": "left",
       "characterSize": 50,
       "color": {
@@ -184,7 +184,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Niveau terminé !",
-        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "font": "assets/fonts/kenney_pixel_square.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 50,
@@ -205,7 +205,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Nombre de fois mort :",
-      "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+      "font": "assets/fonts/kenney_pixel_square.ttf",
       "textAlignment": "left",
       "characterSize": 30,
       "color": {
@@ -228,7 +228,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Nombre de fois mort :",
-        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "font": "assets/fonts/kenney_pixel_square.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 30,
@@ -249,7 +249,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Temps :",
-      "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+      "font": "assets/fonts/kenney_pixel_square.ttf",
       "textAlignment": "left",
       "characterSize": 30,
       "color": {
@@ -272,7 +272,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Temps :",
-        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "font": "assets/fonts/kenney_pixel_square.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 30,
@@ -348,6 +348,18 @@
       "actions": [
         {
           "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets/audio/Coins 9.aac",
+            "",
+            "100",
+            "1"
+          ]
+        },
+        {
+          "type": {
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
@@ -386,6 +398,27 @@
       "actions": [
         {
           "type": {
+            "value": "PlaySoundOnChannel"
+          },
+          "parameters": [
+            "",
+            "assets/audio/dragon_studio_button_press_382713.wav",
+            "2",
+            "",
+            "100",
+            "0.8"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.29"
+          ]
+        },
+        {
+          "type": {
             "value": "Scene"
           },
           "parameters": [
@@ -412,12 +445,33 @@
       "actions": [
         {
           "type": {
+            "value": "PlaySoundOnChannel"
+          },
+          "parameters": [
+            "",
+            "assets/audio/dragon_studio_button_press_382713.wav",
+            "2",
+            "",
+            "100",
+            "0.8"
+          ]
+        },
+        {
+          "type": {
             "value": "SetStringVariable"
           },
           "parameters": [
             "SCENE_A_METTRE",
             "=",
             "\"MENU\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.29"
           ]
         },
         {

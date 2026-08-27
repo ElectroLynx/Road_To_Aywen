@@ -105,7 +105,7 @@
       "name": "fond",
       "persistentUuid": "f34b57fd-51a9-4e38-8f77-41592a5b12cd",
       "rightMargin": 0,
-      "texture": "NewPanelSprite2",
+      "texture": "assets/images/sprites/newpanelsprite2.png",
       "tiled": false,
       "topMargin": 0,
       "type": "PanelSpriteObject::PanelSprite",
@@ -127,7 +127,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Chargement ...",
-      "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+      "font": "assets/fonts/kenney_pixel_square.ttf",
       "textAlignment": "left",
       "characterSize": 60,
       "color": {
@@ -150,7 +150,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Chargement ...",
-        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "font": "assets/fonts/kenney_pixel_square.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 60,
@@ -214,7 +214,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\root_1.png",
+                  "image": "assets/images/sprites/root_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -250,7 +250,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\root_2.png",
+                  "image": "assets/images/sprites/root_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -286,7 +286,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\root_3.png",
+                  "image": "assets/images/sprites/root_3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -322,7 +322,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\root_4.png",
+                  "image": "assets/images/sprites/root_4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -358,7 +358,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\root_5.png",
+                  "image": "assets/images/sprites/root_5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -394,7 +394,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\root_6.png",
+                  "image": "assets/images/sprites/root_6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -430,7 +430,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\root_7.png",
+                  "image": "assets/images/sprites/root_7.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -466,7 +466,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\root_8.png",
+                  "image": "assets/images/sprites/root_8.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

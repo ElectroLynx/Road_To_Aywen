@@ -21,15 +21,17 @@ gdjs.INTROCode.GDPlatformObjects1= [];
 gdjs.INTROCode.GDPlatformObjects2= [];
 
 
-gdjs.INTROCode.asyncCallback14494300 = function (runtimeScene, asyncObjectsList) {
+gdjs.INTROCode.asyncCallback14631788 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.INTROCode.localVariables);
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "MENU", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Scene_loading", false);
 }
 {gdjs.evtTools.storage.writeNumberInJSONFile("VIEW-INTRO", "INTRO", 1);
 }
+{runtimeScene.getGame().getVariables().getFromIndex(0).setString("MENU");
+}
 gdjs.INTROCode.localVariables.length = 0;
 }
-gdjs.INTROCode.idToCallbackMap.set(14494300, gdjs.INTROCode.asyncCallback14494300);
+gdjs.INTROCode.idToCallbackMap.set(14631788, gdjs.INTROCode.asyncCallback14631788);
 gdjs.INTROCode.eventsList0 = function(runtimeScene) {
 
 {
@@ -39,7 +41,7 @@ gdjs.INTROCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.INTROCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.INTROCode.asyncCallback14494300(runtimeScene, asyncObjectsList)), 14494300, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.INTROCode.asyncCallback14631788(runtimeScene, asyncObjectsList)), 14631788, asyncObjectsList);
 }
 }
 
@@ -60,7 +62,7 @@ gdjs.copyArray(runtimeScene.getObjects("Text"), gdjs.INTROCode.GDTextObjects1);
 {runtimeScene.getScene().getVariables().getFromIndex(0).setNumber(0);
 }
 {for(var i = 0, len = gdjs.INTROCode.GDFondObjects1.length ;i < len;++i) {
-    gdjs.INTROCode.GDFondObjects1[i].setTexture("assets\\aywen-setup-intro.png", runtimeScene);
+    gdjs.INTROCode.GDFondObjects1[i].setTexture("assets/images/aywen_setup_intro.png", runtimeScene);
 }
 }
 {for(var i = 0, len = gdjs.INTROCode.GDTextObjects1.length ;i < len;++i) {
@@ -80,7 +82,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.wasKeyJustPressed(runtimeScene, "c");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14484724);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14622652);
 }
 }
 if (isConditionTrue_0) {
@@ -138,7 +140,7 @@ if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Fond"), gdjs.INTROCode.GDFondObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Text"), gdjs.INTROCode.GDTextObjects1);
 {for(var i = 0, len = gdjs.INTROCode.GDFondObjects1.length ;i < len;++i) {
-    gdjs.INTROCode.GDFondObjects1[i].setTexture("assets\\Root-barrière.png", runtimeScene);
+    gdjs.INTROCode.GDFondObjects1[i].setTexture("assets/images/root_barriere.png", runtimeScene);
 }
 }
 {for(var i = 0, len = gdjs.INTROCode.GDTextObjects1.length ;i < len;++i) {
@@ -234,7 +236,7 @@ gdjs.copyArray(runtimeScene.getObjects("Fond"), gdjs.INTROCode.GDFondObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Fond_text"), gdjs.INTROCode.GDFond_9595textObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Text"), gdjs.INTROCode.GDTextObjects1);
 {for(var i = 0, len = gdjs.INTROCode.GDFondObjects1.length ;i < len;++i) {
-    gdjs.INTROCode.GDFondObjects1[i].setTexture("assets\\Root-tombe.png", runtimeScene);
+    gdjs.INTROCode.GDFondObjects1[i].setTexture("assets/images/root_tombe.png", runtimeScene);
 }
 }
 {for(var i = 0, len = gdjs.INTROCode.GDFond_9595textObjects1.length ;i < len;++i) {
@@ -262,7 +264,7 @@ gdjs.copyArray(runtimeScene.getObjects("Fond"), gdjs.INTROCode.GDFondObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Fond_text"), gdjs.INTROCode.GDFond_9595textObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Text"), gdjs.INTROCode.GDTextObjects1);
 {for(var i = 0, len = gdjs.INTROCode.GDFondObjects1.length ;i < len;++i) {
-    gdjs.INTROCode.GDFondObjects1[i].setTexture("assets\\Root-trotoir.png", runtimeScene);
+    gdjs.INTROCode.GDFondObjects1[i].setTexture("assets/images/root_trotoir.png", runtimeScene);
 }
 }
 {for(var i = 0, len = gdjs.INTROCode.GDFond_9595textObjects1.length ;i < len;++i) {
@@ -290,11 +292,6 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber() == 10);
 }
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("Effect"), gdjs.INTROCode.GDEffectObjects1);
-{for(var i = 0, len = gdjs.INTROCode.GDEffectObjects1.length ;i < len;++i) {
-    gdjs.INTROCode.GDEffectObjects1[i].getBehavior("FlashTransitionPainter").PaintEffect("212;109;57", 0.8, "Circular", "Forward", 0, null);
-}
-}
 {gdjs.saveState.createGameSaveStateInStorage(runtimeScene, "VIEW-INTRO", "1");
 }
 

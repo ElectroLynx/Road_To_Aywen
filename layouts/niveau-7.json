@@ -1,13 +1,13 @@
 {
-  "b": 226,
+  "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "NIVEAU_451",
-  "name": "NIVEAU-1",
-  "r": 74,
+  "mangledName": "NIVEAU_457",
+  "name": "NIVEAU-7",
+  "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 144,
+  "v": 249,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.2121641972173676,
+    "zoomFactor": 1.1343715797160967,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -32,49 +32,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 105,
+      "height": 96,
       "keepRatio": true,
       "layer": "",
-      "name": "Root",
-      "persistentUuid": "00261df9-51d6-492a-9498-4640111c8ea8",
-      "width": 70,
-      "x": 96,
-      "y": 522,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 323,
-      "keepRatio": true,
-      "layer": "",
-      "name": "lave",
-      "persistentUuid": "5d29d061-8716-4fe4-bcb8-7be72969d02a",
-      "width": 3153,
-      "x": -1227,
-      "y": 702,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 101,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Flag",
-      "persistentUuid": "a2feffeb-fbd0-4de9-bdff-f4bc89a5a460",
-      "width": 73,
-      "x": 1156,
-      "y": 137,
-      "zOrder": 6,
+      "name": "Platform",
+      "persistentUuid": "c37ecc25-ab15-481a-a6d9-cf9fc6217bfc",
+      "width": 128,
+      "x": 544,
+      "y": 256,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -85,11 +51,130 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Effect",
-      "persistentUuid": "e1ce01f8-0c25-47b2-8fc7-cd37400d004a",
+      "name": "Root",
+      "persistentUuid": "47b9bcbb-a239-42a6-a72e-53c4dcd143ee",
       "width": 0,
-      "x": 17,
-      "y": 19,
+      "x": 567,
+      "y": 78,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "",
+      "name": "PlatformLongRéponse1",
+      "persistentUuid": "7097ccac-75e8-4159-8601-694f7357f019",
+      "width": 256,
+      "x": 32,
+      "y": 608,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Question",
+      "persistentUuid": "fb8f812a-ca90-4388-bb5a-54fab1ee2424",
+      "width": 448,
+      "x": 384,
+      "y": 352,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "",
+      "name": "PlatformLongRéponse2",
+      "persistentUuid": "e69b2eaa-b552-4131-a9f1-91bafb42d707",
+      "width": 288,
+      "x": 320,
+      "y": 608,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "",
+      "name": "PlatformLongRéponse3",
+      "persistentUuid": "c262d8ef-eaf6-4e97-9c5b-bc239599d2f3",
+      "width": 288,
+      "x": 640,
+      "y": 608,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "",
+      "name": "PlatformLongRéponse4",
+      "persistentUuid": "38e141af-d8de-4054-b3b7-e27ed38a983a",
+      "width": 288,
+      "x": 960,
+      "y": 608,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Réponse1",
+      "persistentUuid": "12512e28-7404-4793-9b64-79912c4d2e05",
+      "width": 128,
+      "x": 1056,
+      "y": 480,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Réponse2",
+      "persistentUuid": "b1c8ce24-f3be-4970-914c-2ba9a46dc5f1",
+      "width": 98,
+      "x": 94,
+      "y": 480,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -99,15 +184,32 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 29,
+      "height": 32,
       "keepRatio": true,
       "layer": "",
-      "name": "Info",
-      "persistentUuid": "760bfcb0-3d0e-48c2-8a9a-f4358c147775",
-      "width": 103,
-      "x": 83,
-      "y": 478,
-      "zOrder": 0,
+      "name": "Réponse3",
+      "persistentUuid": "67de11ea-321b-4f6f-978c-5e6d579bc509",
+      "width": 65,
+      "x": 448,
+      "y": 480,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Réponse4",
+      "persistentUuid": "f87d9e37-08d6-4747-96d2-b4c19aa4115e",
+      "width": 96,
+      "x": 736,
+      "y": 480,
+      "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -119,12 +221,12 @@
       "height": 74,
       "keepRatio": true,
       "layer": "",
-      "name": "Key_LEFT",
-      "persistentUuid": "4eecb457-a6bd-47eb-830d-393bd31a5e14",
-      "width": 73,
-      "x": 132,
-      "y": 384,
-      "zOrder": -1,
+      "name": "PlatformLong",
+      "persistentUuid": "dc41ea6d-aa8d-4168-b63a-9132b4d14816",
+      "width": 256,
+      "x": 621,
+      "y": 1013,
+      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -133,49 +235,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 81,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Key_RIGHT",
-      "persistentUuid": "e123682e-2857-469f-bdf8-b6a06592a36e",
-      "width": 76,
-      "x": 242,
-      "y": 378,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 118,
+      "height": 75,
       "keepRatio": true,
       "layer": "",
       "name": "PlatformLong",
-      "persistentUuid": "b895dd82-edbb-456b-aea3-94e8dd969b3e",
-      "width": 386,
-      "x": 513,
-      "y": 420,
-      "zOrder": -3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 10,
-      "customSize": true,
-      "depth": 1,
-      "height": 148,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Micode_Aywen_HugoDécrypte2",
-      "persistentUuid": "afc966a5-e197-487b-8863-d7487d90aa80",
-      "width": 120,
-      "x": 711,
-      "y": 183,
-      "zOrder": -6,
+      "persistentUuid": "20ac3c09-41f8-4c69-b044-6c27305f36bb",
+      "width": 208,
+      "x": 871,
+      "y": 1012,
+      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -184,15 +252,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 78,
+      "height": 77,
       "keepRatio": true,
       "layer": "",
-      "name": "Key_UP",
-      "persistentUuid": "efa1eb2c-593f-4a87-be7d-6ff258981cdd",
-      "width": 81,
-      "x": 180,
-      "y": 322,
-      "zOrder": -7,
+      "name": "PlatformLong",
+      "persistentUuid": "22cbf33d-fcba-41be-9f9e-ea2de7770515",
+      "width": 233,
+      "x": 1073,
+      "y": 1012,
+      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -201,15 +269,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 79,
+      "height": 35,
       "keepRatio": true,
       "layer": "",
-      "name": "Platform",
-      "persistentUuid": "999a98a9-ec6e-4d88-b647-90938aaaba62",
-      "width": 132,
-      "x": 1128,
-      "y": 233,
-      "zOrder": -9,
+      "name": "PlatformLong",
+      "persistentUuid": "43d34f80-bcbf-48f3-91b7-05f321a2f41e",
+      "width": 110,
+      "x": 507,
+      "y": 856,
+      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -218,15 +286,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 88,
+      "height": 35,
       "keepRatio": true,
       "layer": "",
-      "name": "Platform",
-      "persistentUuid": "7fe2900c-bb71-4b42-a267-b99af887377b",
-      "width": 148,
-      "x": 936,
-      "y": 330,
-      "zOrder": -8,
+      "name": "PlatformLong",
+      "persistentUuid": "8273ab8b-5308-4d61-9346-a7828e4bd61c",
+      "width": 110,
+      "x": 1326,
+      "y": 857,
+      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -235,15 +303,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 66,
+      "height": 38,
       "keepRatio": true,
       "layer": "",
-      "name": "Platform",
-      "persistentUuid": "33917dbd-4e06-45b4-a9e6-eb1793a04698",
-      "width": 120,
-      "x": 73,
-      "y": 626,
-      "zOrder": 10,
+      "name": "PlatformLongRéponse3",
+      "persistentUuid": "d02dd081-f00d-4d20-b7ce-fe497744f483",
+      "width": 103,
+      "x": 1329,
+      "y": 749,
+      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -252,15 +320,65 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 99,
+      "height": 38,
       "keepRatio": true,
       "layer": "",
-      "name": "Platform",
-      "persistentUuid": "29110f89-f569-446a-9db6-d1fde769591f",
-      "width": 154,
-      "x": 293,
-      "y": 529,
-      "zOrder": 11,
+      "name": "PlatformLongRéponse3",
+      "persistentUuid": "6df6669c-fe6a-45da-825f-a6d28ee173ac",
+      "width": 103,
+      "x": 512,
+      "y": 754,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Réponse",
+      "persistentUuid": "36c7fbd2-0e4f-4458-b8de-d20e9a5e0a60",
+      "width": 0,
+      "x": 686,
+      "y": 773,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 108,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Flag",
+      "persistentUuid": "091b30db-da89-4d76-9e97-c9f1f47c2681",
+      "width": 73,
+      "x": 693,
+      "y": 910,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Effect",
+      "persistentUuid": "9f34849a-d94c-43ee-bc01-358690c9d61d",
+      "width": 34,
+      "x": 1315,
+      "y": 601,
+      "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -269,88 +387,34 @@
   "objects": [
     {
       "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "72bb570a11177a660c8d1205b5d55ed849d2c6a69b26d2f859e68339d7f39602",
-      "name": "lave",
-      "persistentUuid": "14fc9b6d-2489-450a-a5c9-fe772a6e8882",
+      "assetStoreId": "",
+      "name": "PlatformLongRéponse1",
+      "persistentUuid": "83745301-fef2-4d61-a8ab-bba1a9c448a7",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
-      "animations": [
+      "behaviors": [
         {
-          "name": "assets/images/lava_flat_bright_desat_surface",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets/images/lava_flat_bright_desat_surface",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 288,
-                        "y": 0
-                      },
-                      {
-                        "x": 288,
-                        "y": 288
-                      },
-                      {
-                        "x": 0,
-                        "y": 288
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
         }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "effc1aeeba396030dc59441e0cd5a58cb9cd45cc668fdac9d83344dfa982bab5",
-      "name": "Flag",
-      "persistentUuid": "4add00bb-265d-4fd6-9cad-1a97832cf07d",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
+      ],
       "animations": [
         {
           "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
+              "looping": false,
+              "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/images/flag.png",
+                  "image": "assets/images/sprites/platform_green_long.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -370,16 +434,16 @@
                         "y": 0
                       },
                       {
-                        "x": 20,
+                        "x": 32,
                         "y": 0
                       },
                       {
-                        "x": 20,
-                        "y": 28
+                        "x": 32,
+                        "y": 9
                       },
                       {
                         "x": 0,
-                        "y": 28
+                        "y": 9
                       }
                     ]
                   ]
@@ -392,59 +456,24 @@
     },
     {
       "assetStoreId": "",
-      "name": "Effect",
-      "persistentUuid": "a349ff1c-6ccc-4785-b5fd-35401ac8ff5d",
-      "type": "PrimitiveDrawing::Drawer",
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "FlashTransitionPainter",
-          "type": "FlashTransitionPainter::FlashTransitionPainter",
-          "Progress": 0,
-          "Duration": 0,
-          "Type": "",
-          "Direction": "",
-          "MaxOpacity": 255
-        }
-      ],
-      "fillOpacity": 255,
-      "outlineSize": 1,
-      "outlineOpacity": 255,
-      "absoluteCoordinates": false,
-      "clearBetweenFrames": true,
-      "antialiasing": "none",
-      "fillColor": {
-        "r": 255,
-        "g": 255,
-        "b": 255
-      },
-      "outlineColor": {
-        "r": 0,
-        "g": 0,
-        "b": 0
-      }
-    },
-    {
-      "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "Info",
-      "persistentUuid": "b992b899-d867-4864-9dd0-d8be428588d1",
+      "name": "Question",
+      "persistentUuid": "789baa8f-659a-426c-a637-0bc6971ee1fd",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Niveau 1",
+      "string": "Quel est le vrai prénom de Aywen ?",
       "font": "assets/fonts/kenney_pixel_square.ttf",
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 0,
+        "g": 0,
+        "r": 0
       },
       "content": {
         "bold": false,
@@ -460,142 +489,20 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Niveau 1",
+        "text": "Quel est le vrai prénom de Aywen ?",
         "font": "assets/fonts/kenney_pixel_square.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 20,
         "lineHeight": 0,
-        "color": "255;255;255"
+        "color": "0;0;0"
       }
     },
     {
       "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "88919b4121489a301d7fd01102dccfd0da59b918b13ed47ad907f937d05382b3",
-      "name": "Key_LEFT",
-      "persistentUuid": "76991a46-1617-429b-b153-eed76c0f8a58",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Left",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/images/arrow_key_left.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 13,
-                        "y": 14
-                      },
-                      {
-                        "x": 87,
-                        "y": 14
-                      },
-                      {
-                        "x": 87,
-                        "y": 86
-                      },
-                      {
-                        "x": 13,
-                        "y": 86
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "88919b4121489a301d7fd01102dccfd0da59b918b13ed47ad907f937d05382b3",
-      "name": "Key_RIGHT",
-      "persistentUuid": "7395ec1e-bdfa-491c-8471-cadfa760a68b",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Right",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/images/arrow_key_right.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 13,
-                        "y": 14
-                      },
-                      {
-                        "x": 87,
-                        "y": 14
-                      },
-                      {
-                        "x": 87,
-                        "y": 86
-                      },
-                      {
-                        "x": 13,
-                        "y": 86
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "PlatformLong",
-      "persistentUuid": "7487521a-44e3-4db6-ae0e-9b51d50f564d",
+      "name": "PlatformLongRéponse2",
+      "persistentUuid": "135536d6-fe69-4651-b1c4-9df357ad656a",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -663,8 +570,77 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Key_UP",
-      "persistentUuid": "df86735a-4b93-4c47-902b-a4e809907096",
+      "name": "PlatformLongRéponse3",
+      "persistentUuid": "5f0e251a-2e0f-4407-bf1b-50966fc89cff",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/images/sprites/platform_green_long.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 9
+                      },
+                      {
+                        "x": 0,
+                        "y": 9
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "PlatformLongRéponse4",
+      "persistentUuid": "79db89fc-0ff7-4b3b-9d19-f13fdfd4d433",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -681,7 +657,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/images/arrow_key_up.png",
+                  "image": "assets/images/sprites/platform_green_long.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -697,20 +673,336 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 9
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 9
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Réponse1",
+      "persistentUuid": "e6342230-460c-4645-9bba-a7ddd7bd2e83",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Michaël",
+      "font": "assets/fonts/kenney_pixel_square.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Michaël",
+        "font": "assets/fonts/kenney_pixel_square.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Réponse2",
+      "persistentUuid": "a9986d50-b6f4-4871-8c98-135e94353f04",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Nicolas",
+      "font": "assets/fonts/kenney_pixel_square.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Nicolas",
+        "font": "assets/fonts/kenney_pixel_square.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Réponse3",
+      "persistentUuid": "8df4880b-09bb-4fb1-b3bd-06371ed6d89f",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Enzo",
+      "font": "assets/fonts/kenney_pixel_square.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Enzo",
+        "font": "assets/fonts/kenney_pixel_square.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Réponse4",
+      "persistentUuid": "f65dca88-9181-4c0a-a95a-2e916d200d52",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Victor",
+      "font": "assets/fonts/kenney_pixel_square.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Victor",
+        "font": "assets/fonts/kenney_pixel_square.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Réponse",
+      "persistentUuid": "5c892d90-dbbe-42ef-aa0f-558570ac8ce2",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Le prénom de Micode/aywen est évidemment\nMichaël",
+      "font": "assets/fonts/kenney_pixel_square.ttf",
+      "textAlignment": "center",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Le prénom de Micode/aywen est évidemment\nMichaël",
+        "font": "assets/fonts/kenney_pixel_square.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Effect",
+      "persistentUuid": "42bf10d4-0432-4dc4-bac9-4d7214f3f6b5",
+      "type": "PrimitiveDrawing::Drawer",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FlashTransitionPainter",
+          "type": "FlashTransitionPainter::FlashTransitionPainter",
+          "Progress": 0,
+          "Duration": 0,
+          "Type": "",
+          "Direction": "",
+          "MaxOpacity": 255
+        }
+      ],
+      "fillOpacity": 255,
+      "outlineSize": 1,
+      "outlineOpacity": 255,
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true,
+      "antialiasing": "none",
+      "fillColor": {
+        "r": 255,
+        "g": 255,
+        "b": 255
+      },
+      "outlineColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "effc1aeeba396030dc59441e0cd5a58cb9cd45cc668fdac9d83344dfa982bab5",
+      "name": "Flag",
+      "persistentUuid": "510b671a-989b-40ad-98b7-d84f223d3e45",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/images/flag.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 20,
+                        "y": 0
+                      },
+                      {
+                        "x": 20,
+                        "y": 28
+                      },
+                      {
+                        "x": 0,
+                        "y": 28
                       }
                     ]
                   ]
@@ -726,32 +1018,167 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "lave"
+        "objectName": "PlatformLongRéponse1"
       },
       {
-        "objectName": "Flag"
+        "objectName": "PlatformLongRéponse2"
+      },
+      {
+        "objectName": "PlatformLongRéponse3"
+      },
+      {
+        "objectName": "PlatformLongRéponse4"
+      },
+      {
+        "objectName": "Question"
+      },
+      {
+        "objectName": "Réponse"
+      },
+      {
+        "objectName": "Réponse1"
+      },
+      {
+        "objectName": "Réponse2"
       },
       {
         "objectName": "Effect"
       },
       {
-        "objectName": "Info"
+        "objectName": "Flag"
       },
       {
-        "objectName": "Key_LEFT"
+        "objectName": "Réponse3"
       },
       {
-        "objectName": "Key_RIGHT"
-      },
-      {
-        "objectName": "PlatformLong"
-      },
-      {
-        "objectName": "Key_UP"
+        "objectName": "Réponse4"
       }
     ]
   },
   "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Root",
+                "PlatformLongRéponse1",
+                "PlatformLongRéponse1",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Root",
+                "PlatformLongRéponse2",
+                "PlatformLongRéponse2",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Root",
+                "PlatformLongRéponse3",
+                "PlatformLongRéponse3",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Root",
+            "PlatformerObject",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundOnChannel"
+          },
+          "parameters": [
+            "",
+            "assets/audio/toobad.mp3",
+            "8",
+            "",
+            "100",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "5"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"MENU\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Root",
+            "PlatformLongRéponse4",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "CenterCameraOnObject"
+          },
+          "parameters": [
+            "",
+            "Root",
+            "",
+            "",
+            "0"
+          ]
+        }
+      ]
+    },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
@@ -782,90 +1209,6 @@
             "TEMPS",
             "=",
             "0"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "CenterCameraOnObject"
-          },
-          "parameters": [
-            "",
-            "Root",
-            "no",
-            "",
-            "5"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Root",
-            "lave",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySoundOnChannel"
-          },
-          "parameters": [
-            "",
-            "assets/audio/dead.wav",
-            "1",
-            "100",
-            "100",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "X_MORT",
-            "+",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.3"
-          ]
-        },
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"NIVEAU-1\"",
-            ""
           ]
         }
       ]
@@ -1020,7 +1363,7 @@
           "parameters": [
             "SCENE_A_METTRE",
             "=",
-            "\"NIVEAU-2\""
+            "\"dev\""
           ]
         },
         {
@@ -1219,11 +1562,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [

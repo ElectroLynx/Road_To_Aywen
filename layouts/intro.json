@@ -624,6 +624,19 @@
           "parameters": [
             "Text"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundOnChannel"
+          },
+          "parameters": [
+            "",
+            "assets/audio/chute.wav",
+            "5",
+            "",
+            "100",
+            "1.5"
+          ]
         }
       ]
     },

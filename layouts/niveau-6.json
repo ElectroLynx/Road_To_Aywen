@@ -715,7 +715,7 @@
           "parameters": [
             "SCENE_A_METTRE",
             "=",
-            "\"dev\""
+            "\"NIVEAU-7\""
           ]
         },
         {
@@ -774,12 +774,6 @@
             "",
             "\"Up\""
           ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
         }
       ],
       "actions": [

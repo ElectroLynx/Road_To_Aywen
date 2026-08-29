@@ -1,7 +1,7 @@
 {
   "firstLayout": "MENU",
   "gdVersion": {
-    "build": 279,
+    "build": 281,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -37,7 +37,7 @@
       "android-icon-72": "",
       "android-icon-96": "",
       "android-windowSplashScreenAnimatedIcon": "",
-      "desktop-icon-512": "assets/images/sprites/root_6.png",
+      "desktop-icon-512": "assets/images/root_logo.png",
       "ios-icon-100": "",
       "ios-icon-1024": "",
       "ios-icon-114": "",
@@ -738,6 +738,34 @@
         "metadata": "",
         "name": "assets/bannière.png",
         "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/images/root_logo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/images/root_logo.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/audio/chute.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/audio/chute.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/audio/toobad.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/audio/toobad.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": false
       }
     ]
@@ -1614,6 +1642,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/niveau-6"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/niveau-7"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

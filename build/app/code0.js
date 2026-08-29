@@ -21,7 +21,7 @@ gdjs.INTROCode.GDPlatformObjects1= [];
 gdjs.INTROCode.GDPlatformObjects2= [];
 
 
-gdjs.INTROCode.asyncCallback14631788 = function (runtimeScene, asyncObjectsList) {
+gdjs.INTROCode.asyncCallback14840796 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.INTROCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Scene_loading", false);
 }
@@ -31,7 +31,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.INTROCode.localVariables);
 }
 gdjs.INTROCode.localVariables.length = 0;
 }
-gdjs.INTROCode.idToCallbackMap.set(14631788, gdjs.INTROCode.asyncCallback14631788);
+gdjs.INTROCode.idToCallbackMap.set(14840796, gdjs.INTROCode.asyncCallback14840796);
 gdjs.INTROCode.eventsList0 = function(runtimeScene) {
 
 {
@@ -41,7 +41,7 @@ gdjs.INTROCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.INTROCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.INTROCode.asyncCallback14631788(runtimeScene, asyncObjectsList)), 14631788, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.INTROCode.asyncCallback14840796(runtimeScene, asyncObjectsList)), 14840796, asyncObjectsList);
 }
 }
 
@@ -82,7 +82,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.wasKeyJustPressed(runtimeScene, "c");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14622652);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14831660);
 }
 }
 if (isConditionTrue_0) {
@@ -246,6 +246,8 @@ gdjs.copyArray(runtimeScene.getObjects("Text"), gdjs.INTROCode.GDTextObjects1);
 {for(var i = 0, len = gdjs.INTROCode.GDTextObjects1.length ;i < len;++i) {
     gdjs.INTROCode.GDTextObjects1[i].hide();
 }
+}
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets/audio/chute.wav", 5, false, 100, 1.5);
 }
 }
 

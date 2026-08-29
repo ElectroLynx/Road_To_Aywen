@@ -145,6 +145,7 @@
 	<script src="code9.js" crossorigin="anonymous"></script>
 	<script src="code10.js" crossorigin="anonymous"></script>
 	<script src="code11.js" crossorigin="anonymous"></script>
+	<script src="code12.js" crossorigin="anonymous"></script>
 	<script src="data.js" crossorigin="anonymous"></script>
 
 
@@ -156,7 +157,7 @@
 
     (function() {
         //Initialization
-        var game = new gdjs.RuntimeGame(gdjs.projectData, {});
+        var game = new gdjs.RuntimeGame(gdjs.projectData, gdjs.runtimeGameOptions);
 
         //Create a renderer
         game.getRenderer().createStandardCanvas(document.body);

@@ -306,7 +306,7 @@ gdjs.evtsExt__ButtonStates__ButtonFSM.ButtonFSM.prototype.doStepPreEventsContext
 
 let isConditionTrue_0 = false;
 {
-{eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setIndex(eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getIndex()+1)
+{eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setIndex(eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getIndex()+(1))
 }
 }
 

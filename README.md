@@ -27,3 +27,6 @@ En téléchargeant la dernière version du jeu dans Releases. Il inclut un insta
 # Je n'ai pas envie d'installer n'importe quoi sur mon ordinateur.
 Pas de panique ! Passez par ce lien pour jouer directement sur Internet via votre navigateur web.
 > [Lien vers gd.games](https://gd.games/electrolynx/road-to-aywen)
+
+Ou sinon regardez cette vidéo qui montre le gameplay
+> [Lien vers Youtube](https://www.youtube.com/watch?v=7uy0djlxz14)
